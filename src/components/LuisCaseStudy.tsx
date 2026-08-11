@@ -17,7 +17,7 @@ interface LightboxItem {
 
 const brandActivations: LightboxItem[] = [
   {
-    src: '/luis/Check out Liquid IV at The Kitchen Open! Fun, hydration, and performance.  #Experiential.mp4',
+    src: '/luis/liquid-iv.mp4',
     title: 'Liquid I.V. Kitchen Open Experience',
     subtitle: 'Experiential Brand Activation',
     type: 'video',
@@ -25,7 +25,7 @@ const brandActivations: LightboxItem[] = [
     description: 'High-energy experiential brand activation featuring live hydration stations, interactive fan challenges, and social reels.',
   },
   {
-    src: '/luis/When Chase Freedom took over All-Star Weekend.mp4',
+    src: '/luis/chase-freedom.mp4',
     title: 'Chase Freedom All-Star Weekend',
     subtitle: 'Major Sports Event Takeover',
     type: 'video',
@@ -33,7 +33,7 @@ const brandActivations: LightboxItem[] = [
     description: 'Comprehensive NBA All-Star Weekend takeover capturing fan activations, VIP lounge moments, and brand engagement.',
   },
   {
-    src: '/luis/Incredible brand activation for Topo Chico.mp4',
+    src: '/luis/topo-chico.mp4',
     title: 'Topo Chico Refreshment Experience',
     subtitle: 'Beverage Activation Reel',
     type: 'video',
@@ -41,7 +41,7 @@ const brandActivations: LightboxItem[] = [
     description: 'Artisanal product showcase and interactive sampling booth film highlighting Topo Chico mineral water experience.',
   },
   {
-    src: '/luis/Incredible brand activation w Pacifico!.mp4',
+    src: '/luis/pacifico-beer.mp4',
     title: 'Pacifico Beer Coastal Activation',
     subtitle: 'Lifestyle & Experiential Reel',
     type: 'video',
@@ -52,7 +52,7 @@ const brandActivations: LightboxItem[] = [
 
 const btsAndEvents: LightboxItem[] = [
   {
-    src: '/luis/Behind the Scenes_ BTS Las Vegas Fan Experience  #BTSArmy #EventProduction #BrandActivation #BTS.mp4',
+    src: '/luis/bts-las-vegas.mp4',
     title: 'BTS Las Vegas Fan Experience',
     subtitle: 'Large-Scale Event Production',
     type: 'video',
@@ -60,7 +60,7 @@ const btsAndEvents: LightboxItem[] = [
     description: 'Behind-the-scenes event production documentary covering stage builds, immersive Army fan zones, and concert pop-ups.',
   },
   {
-    src: '/luis/When Lexus celebrated Pride in style!.mp4',
+    src: '/luis/lexus-pride.mp4',
     title: 'Lexus Pride Celebration Showcase',
     subtitle: 'Automotive Diversity Campaign',
     type: 'video',
@@ -68,7 +68,7 @@ const btsAndEvents: LightboxItem[] = [
     description: 'Vibrant luxury automotive event film celebrating Pride with custom vehicle wraps, community highlights, and evening galas.',
   },
   {
-    src: '/luis/Campaign for Consensus by @CoinDesk  #bts #marketing #campaign #shortsvideo.mp4',
+    src: '/luis/coindesk-consensus.mp4',
     title: 'CoinDesk Consensus Campaign',
     subtitle: 'Tech Conference & BTS Short',
     type: 'video',
@@ -79,7 +79,7 @@ const btsAndEvents: LightboxItem[] = [
 
 const publisherCampaigns: LightboxItem[] = [
   {
-    src: '/luis/Bringing Stories to Life with Random House Childrens Books!.mp4',
+    src: '/luis/random-house-childrens-books.mp4',
     title: 'Random House Children\'s Books',
     subtitle: 'Publishing Campaign Reel',
     type: 'video',
@@ -87,7 +87,7 @@ const publisherCampaigns: LightboxItem[] = [
     description: 'Creative storytelling campaign bringing children\'s literature characters into interactive pop-up reading corners.',
   },
   {
-    src: '/luis/Activate your Audience!.mp4',
+    src: '/luis/activate-your-audience.mp4',
     title: 'Activate Your Audience',
     subtitle: 'Master Short Video Reel',
     type: 'video',

@@ -188,6 +188,30 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       category: 'beforeafter',
       description: 'Fast-paced editing highlighting tile layout precision, cabinet installation, and painting perfection.',
     },
+    {
+      src: '/jrc/bathroom-af.mp4',
+      title: 'Spa Master Bathroom Overhaul',
+      subtitle: 'Luxury Bath Reel',
+      type: 'video',
+      category: 'kitchenbath',
+      description: 'Full video walkthrough of custom tile work, glass enclosed rainfall shower, and double vanity bath installation.',
+    },
+    {
+      src: '/jrc/final-ad-after-before.mp4',
+      title: 'Whole-Home Before & After Cut',
+      subtitle: 'Full Renovation Showcase',
+      type: 'video',
+      category: 'beforeafter',
+      description: 'Side-by-side commercial edit revealing complete structural and interior transformation from raw framing to final finish.',
+    },
+    {
+      src: '/jrc/final-after.mp4',
+      title: 'Turnkey Home Reveal',
+      subtitle: 'Master Craftsman After Tour',
+      type: 'video',
+      category: 'beforeafter',
+      description: 'Stunning completed home walkthrough showcasing open-concept living spaces, custom kitchen, and high-end finishes.',
+    },
   ]
 
   const allLightboxItems: LightboxItem[] = [

@@ -33,8 +33,8 @@ const sliderItems: SliderItem[] = [
   },
   {
     name: 'JRC Home Remodeling',
-    logo: '/jrc/hero image.png?v=2',
-    image: '/jrc/hero image.png?v=2',
+    logo: '/jrc/hero image.webp',
+    image: '/jrc/hero image.webp',
     video: '/jrc/hero video.mp4',
     link: '#work',
   },

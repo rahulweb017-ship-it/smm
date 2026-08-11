@@ -74,7 +74,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
 
   const portfolioShowcase: LightboxItem[] = [
     {
-      src: '/jrc/portfolio.jpg',
+      src: '/jrc/portfolio.webp',
       title: 'JRC Master Home Remodeling Portfolio',
       subtitle: 'Whole-Home Architecture & Craftsmanship',
       type: 'image',
@@ -82,7 +82,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Comprehensive high-end residential renovation showcasing custom woodworking, open-concept living, and premium architectural finishes.',
     },
     {
-      src: '/jrc/portfolio-1.jpg',
+      src: '/jrc/portfolio-1.webp',
       title: 'Gourmet Chef Kitchen Renovation',
       subtitle: 'Custom Cabinetry & Quartz Countertops',
       type: 'image',
@@ -90,7 +90,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Handcrafted hardwood cabinets, waterfall quartz kitchen island, custom tile backsplash, and smart lighting solutions.',
     },
     {
-      src: '/jrc/portfolio-2.jpg',
+      src: '/jrc/portfolio-2.webp',
       title: 'Luxury Spa Bathroom Sanctuary',
       subtitle: 'Master Bath Transformation',
       type: 'image',
@@ -98,7 +98,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Frameless glass walk-in rainfall shower, freestanding soaking tub, heated floor tiles, and custom double vanity.',
     },
     {
-      src: '/jrc/portfolio-3.jpg',
+      src: '/jrc/portfolio-3.webp',
       title: 'Finished Basement & Entertainment Lounge',
       subtitle: 'Lower-Level Conversion',
       type: 'image',
@@ -106,7 +106,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Custom home theater, wet bar installation, ambient mood lighting, and moisture-sealed vinyl plank flooring.',
     },
     {
-      src: '/jrc/portfolio-4.jpg',
+      src: '/jrc/portfolio-4.webp',
       title: 'Exterior & Outdoor Living Transformation',
       subtitle: 'Facade & Decking Renovation',
       type: 'image',
@@ -395,7 +395,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/jrc/hero image.png"
+              src="/jrc/hero image.webp"
               alt="JRC Home Remodeling Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

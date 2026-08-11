@@ -50,7 +50,7 @@ export const projects: Project[] = [
   { title: 'The Forsted Vault', category: 'Jewellery', image: '/jewellery/Mockup.jpg', video: '/jewellery/faith.mp4' },
   { title: 'Replug', category: 'E-Commerce', image: '/replug/hero image.jpg', video: '/replug/hero image.mp4' },
   { title: 'Limco Logistics', category: 'Logistics', image: '/limco/hero image.jpg?v=2', video: '/limco/hero video.mp4' },
-  { title: 'JRC Home Remodeling', category: 'Home Remodeling', image: '/jrc/hero image.png?v=2', video: '/jrc/hero video.mp4' },
+  { title: 'JRC Home Remodeling', category: 'Home Remodeling', image: '/jrc/hero image.webp', video: '/jrc/hero video.mp4' },
   { title: 'Rethink UX/UI Studio', category: 'UX/UI', image: '/rethink/main.jpg', video: '/rethink/hero-video.mp4' },
   { title: 'Khalsa Immigration', category: 'Immigration', image: '/khalsa/hero image.jpg', video: '/khalsa/hero video.mp4' },
   { title: 'Falco Power E-Drive', category: 'E-Bikes', image: '/falco/hero-secti.png?v=2', video: '/falco/hero-video.mp4' },

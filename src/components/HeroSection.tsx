@@ -11,6 +11,13 @@ interface SliderItem {
 
 const sliderItems: SliderItem[] = [
   {
+    name: 'Scalo Restaurant',
+    logo: '/scalo/hero-section.png',
+    image: '/scalo/hero-section.png',
+    video: '/scalo/hero-video.mp4',
+    link: '#work',
+  },
+  {
     name: 'Imperial Branding Agency',
     logo: '/luis/hero image.png?v=2',
     image: '/luis/hero image.png?v=2',
@@ -22,13 +29,6 @@ const sliderItems: SliderItem[] = [
     logo: '/jewellery/Ring .jpg',
     image: '/jewellery/Mockup.jpg',
     video: '/jewellery/faith.mp4',
-    link: '#work',
-  },
-  {
-    name: 'Scalo Restaurant',
-    logo: '/scalo/hero-section.png',
-    image: '/scalo/hero-section.png',
-    video: '/scalo/hero-video.mp4',
     link: '#work',
   },
   {

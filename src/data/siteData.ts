@@ -45,9 +45,9 @@ export const projectFilters = [
 ]
 
 export const projects: Project[] = [
+  { title: 'Scalo Restaurant', category: 'Food & Drinks', image: '/scalo/hero-section.png', video: '/scalo/hero-video.mp4' },
   { title: 'Imperial Branding Agency', category: 'Short Video Content Creation', image: '/luis/hero image.png?v=2', video: '/luis/hero video.mp4' },
   { title: 'The Forsted Vault', category: 'Jewellery', image: '/jewellery/Mockup.jpg', video: '/jewellery/faith.mp4' },
-  { title: 'Scalo Restaurant', category: 'Food & Drinks', image: '/scalo/hero-section.png', video: '/scalo/hero-video.mp4' },
   { title: 'Replug', category: 'E-Commerce', image: '/replug/hero image.jpg', video: '/replug/hero image.mp4' },
   { title: 'Limco Logistics', category: 'Logistics', image: '/limco/hero image.jpg?v=2', video: '/limco/hero video.mp4' },
   { title: 'JRC Home Remodeling', category: 'Home Remodeling', image: '/jrc/hero image.png?v=2', video: '/jrc/hero video.mp4' },

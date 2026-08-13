@@ -85,7 +85,9 @@ function ProjectCard({ project, index, getColSpanClass, onViewProject }: Project
         onClick={onViewProject}
         onMouseEnter={project.video ? handleMouseEnter : undefined}
         onMouseLeave={project.video ? handleMouseLeave : undefined}
-        className="view-project-tooltip group relative cursor-pointer rounded-[15px] lg:rounded-[30px] overflow-hidden duration-[0.3s]"
+        className={`view-project-tooltip group relative rounded-[15px] lg:rounded-[30px] overflow-hidden duration-[0.3s] ${
+          onViewProject ? 'cursor-pointer' : 'cursor-default'
+        }`}
       >
         <img
           className="w-full h-auto object-cover aspect-[680/510] rounded-[15px] lg:rounded-[30px] duration-500 group-hover:scale-[1.03]"
@@ -110,22 +112,24 @@ function ProjectCard({ project, index, getColSpanClass, onViewProject }: Project
         )}
 
         {/* Hover overlay with standard premium View Project button */}
-        <div
-          className={`absolute inset-0 bg-[#28282e]/20 flex items-center justify-center transition-opacity duration-300 z-20 ${
-            hovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
-          }`}
-        >
-          <span className="bg-white text-[#28282e] text-[11px] md:text-[13px] font-black uppercase tracking-wider px-5 py-2.5 rounded-full shadow-md transform translate-y-2 group-hover:translate-y-0 transition duration-300">
-            View Project
-          </span>
-        </div>
+        {onViewProject && (
+          <div
+            className={`absolute inset-0 bg-[#28282e]/20 flex items-center justify-center transition-opacity duration-300 z-20 ${
+              hovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}
+          >
+            <span className="bg-white text-[#28282e] text-[11px] md:text-[13px] font-black uppercase tracking-wider px-5 py-2.5 rounded-full shadow-md transform translate-y-2 group-hover:translate-y-0 transition duration-300">
+              View Project
+            </span>
+          </div>
+        )}
         
         <span className="absolute top-[10px] md:top-[24px] left-[10px] md:left-[20px] bg-white text-[8px] md:text-[14px] font-bold px-[10px] md:px-[20px] py-[4px] md:py-[10px] rounded-[30px] shadow-sm text-[#28282e] z-10">
           {project.category}
         </span>
       </div>
       
-      <div className="grid font-bold cursor-pointer mt-1" onClick={onViewProject}>
+      <div className={`grid font-bold mt-1 ${onViewProject ? 'cursor-pointer' : 'cursor-default'}`} onClick={onViewProject}>
         <span className="leading-none text-[14px] md:text-[20px] text-[#28282e]">{project.title}</span>
         <span className="text-[12px] md:text-[14px] text-[#949ea9] leading-[1.3] font-medium mt-1">
           {projectDescriptions[project.title] || 'Bringing care a step closer'}
@@ -262,8 +266,6 @@ export function WorkSection() {
                   ? () => setIsArvindStudyOpen(true)
                   : project.title === 'PCL Dental & Skin Care'
                   ? () => setIsPclStudyOpen(true)
-                  : project.title === 'AuroCoin'
-                  ? () => setIsAuroCoinStudyOpen(true)
                   : undefined
               }
             />

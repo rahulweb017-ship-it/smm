@@ -14,6 +14,7 @@ import { LimcoCaseStudy } from './LimcoCaseStudy'
 import { ReplugCaseStudy } from './ReplugCaseStudy'
 import { RoofingCaseStudy } from './RoofingCaseStudy'
 import { ArvindCaseStudy } from './ArvindCaseStudy'
+import { PclCaseStudy } from './PclCaseStudy'
 
 const projectDescriptions: Record<string, string> = {
   'The Forsted Vault': 'Exquisite fine jewellery and custom master craftsmanship',
@@ -30,6 +31,7 @@ const projectDescriptions: Record<string, string> = {
   'Replug': 'Next-gen TWS earbuds, smart charging series, and e-commerce brand collateral',
   'Roofing Bucks County': 'Residential roof replacements, GAF shingle systems, gutters, and emergency repair',
   'Arvind Herbal Labs': 'Ayurvedic formulations, bio-herbal feed additives, and veterinary healthcare',
+  'PCL Dental & Skin Care': 'Sedation dentistry, cosmetic smile design, and clinical skincare campaigns',
   'Doxy': 'Sleek, telemedicine-optimized patient engagement',
   'Rival': 'High-performance metrics and analytics dashboard',
   'Office Space': 'Dynamic real estate leasing and booking workspace',
@@ -147,9 +149,10 @@ export function WorkSection() {
   const [isReplugStudyOpen, setIsReplugStudyOpen] = useState(false)
   const [isRoofingStudyOpen, setIsRoofingStudyOpen] = useState(false)
   const [isArvindStudyOpen, setIsArvindStudyOpen] = useState(false)
+  const [isPclStudyOpen, setIsPclStudyOpen] = useState(false)
 
   const filterList1 = ['All', 'IT Solutions Marketing', 'Short Video Content Creation', 'Bank & Finance', 'Blockchain', 'Education', 'E-Commerce', 'Food & Drinks']
-  const filterList2 = ['Immigration', 'Healthcare', 'Animal Health', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
+  const filterList2 = ['Immigration', 'Healthcare', 'Animal Health', 'Dental & Skin Care', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
 
   const visibleProjects = useMemo(
     () => (active === 'All' ? projects : projects.filter((project) => project.category === active)),
@@ -254,6 +257,8 @@ export function WorkSection() {
                   ? () => setIsRoofingStudyOpen(true)
                   : project.title === 'Arvind Herbal Labs'
                   ? () => setIsArvindStudyOpen(true)
+                  : project.title === 'PCL Dental & Skin Care'
+                  ? () => setIsPclStudyOpen(true)
                   : undefined
               }
             />
@@ -343,6 +348,12 @@ export function WorkSection() {
       <ArvindCaseStudy
         isOpen={isArvindStudyOpen}
         onClose={() => setIsArvindStudyOpen(false)}
+      />
+
+      {/* PCL Dental & Skin Care Case Study Presentation Overlay */}
+      <PclCaseStudy
+        isOpen={isPclStudyOpen}
+        onClose={() => setIsPclStudyOpen(false)}
       />
     </div>
   )

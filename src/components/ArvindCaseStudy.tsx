@@ -10,14 +10,14 @@ interface LightboxItem {
   src: string
   title: string
   subtitle: string
-  type: 'image' | 'video'
-  category: 'supplements' | 'aqua' | 'ayurvedic' | 'reels'
+  type: 'image'
+  category: 'supplements' | 'aqua' | 'ayurvedic'
   description?: string
 }
 
 export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
   const containerRef = useRef<HTMLDivElement>(null)
-  const [activeTab, setActiveTab] = useState<'all' | 'supplements' | 'aqua' | 'ayurvedic' | 'reels'>('all')
+  const [activeTab, setActiveTab] = useState<'all' | 'supplements' | 'aqua' | 'ayurvedic'>('all')
   const [activeLightboxItem, setActiveLightboxItem] = useState<LightboxItem | null>(null)
 
   useEffect(() => {
@@ -46,19 +46,19 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
         e.preventDefault()
         setActiveLightboxItem((current) => {
           if (!current) return null
-          const curIdx = allLightboxItems.findIndex((i) => i.src === current.src)
+          const curIdx = productShowcase.findIndex((i) => i.src === current.src)
           if (curIdx === -1) return current
-          const prevIdx = (curIdx - 1 + allLightboxItems.length) % allLightboxItems.length
-          return allLightboxItems[prevIdx]
+          const prevIdx = (curIdx - 1 + productShowcase.length) % productShowcase.length
+          return productShowcase[prevIdx]
         })
       } else if (e.key === 'ArrowRight') {
         e.preventDefault()
         setActiveLightboxItem((current) => {
           if (!current) return null
-          const curIdx = allLightboxItems.findIndex((i) => i.src === current.src)
+          const curIdx = productShowcase.findIndex((i) => i.src === current.src)
           if (curIdx === -1) return current
-          const nextIdx = (curIdx + 1) % allLightboxItems.length
-          return allLightboxItems[nextIdx]
+          const nextIdx = (curIdx + 1) % productShowcase.length
+          return productShowcase[nextIdx]
         })
       } else if (e.key === 'Escape') {
         e.preventDefault()
@@ -211,56 +211,8 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
     },
   ]
 
-  const videoReels: LightboxItem[] = [
-    {
-      src: '/arvind/hero-video.mp4',
-      title: 'Arvind Herbal Labs Corporate Showcase',
-      subtitle: 'Brand Science & Manufacturing Film',
-      type: 'video',
-      category: 'reels',
-      description: 'Cinematic brand overview highlighting GMP-certified manufacturing, research labs, and herbal extraction facilities.',
-    },
-    {
-      src: '/arvind/arvind-reel-1.mp4',
-      title: 'Phytogenic Poultry Solutions Spotlight',
-      subtitle: 'High-Performance Farm Tour',
-      type: 'video',
-      category: 'reels',
-      description: 'On-farm performance showcases demonstrating FCR improvements and gut health optimization using Arvind herbal premixes.',
-    },
-    {
-      src: '/arvind/arvind-reel-2.mp4',
-      title: 'Aquaculture Growth & Water Quality Reel',
-      subtitle: 'Max Grow Aqua Feature',
-      type: 'video',
-      category: 'reels',
-      description: 'Exploring sustainable aquaculture solutions, pond water management, and rapid shrimp biomass expansion.',
-    },
-    {
-      src: '/arvind/arvind-reel-3.mp4',
-      title: 'Ayurvedic Extraction & Quality Standards',
-      subtitle: 'R&D Innovation Showcase',
-      type: 'video',
-      category: 'reels',
-      description: 'Behind-the-scenes look at standardization of active botanical markers and rigorous batch purity testing.',
-    },
-    {
-      src: '/arvind/arvind-reel-4.mp4',
-      title: 'Farmer Success & Product Reel 04',
-      subtitle: 'Commercial Performance Short',
-      type: 'video',
-      category: 'reels',
-      description: 'High-energy social media reel capturing commercial flock results and breeder satisfaction across international markets.',
-    },
-  ]
-
-  const allLightboxItems: LightboxItem[] = [
-    ...productShowcase,
-    ...videoReels,
-  ]
-
   const currentLightboxIndex = activeLightboxItem
-    ? allLightboxItems.findIndex((item) => item.src === activeLightboxItem.src)
+    ? productShowcase.findIndex((item) => item.src === activeLightboxItem.src)
     : -1
 
   return (
@@ -284,7 +236,7 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
                 </span>
                 {currentLightboxIndex !== -1 && (
                   <span className="text-[11px] font-extrabold text-white/60 bg-white/10 px-2.5 py-0.5 rounded-full">
-                    {currentLightboxIndex + 1} / {allLightboxItems.length}
+                    {currentLightboxIndex + 1} / {productShowcase.length}
                   </span>
                 )}
               </div>
@@ -309,8 +261,8 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
             onClick={(e) => {
               e.stopPropagation()
               if (currentLightboxIndex !== -1) {
-                const prevIdx = (currentLightboxIndex - 1 + allLightboxItems.length) % allLightboxItems.length
-                setActiveLightboxItem(allLightboxItems[prevIdx])
+                const prevIdx = (currentLightboxIndex - 1 + productShowcase.length) % productShowcase.length
+                setActiveLightboxItem(productShowcase[prevIdx])
               }
             }}
             className="fixed left-3 md:left-8 top-1/2 -translate-y-1/2 p-3 md:p-4 rounded-full bg-white/10 hover:bg-white/25 text-white transition duration-300 backdrop-blur-md border border-white/20 z-[210] group"
@@ -326,8 +278,8 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
             onClick={(e) => {
               e.stopPropagation()
               if (currentLightboxIndex !== -1) {
-                const nextIdx = (currentLightboxIndex + 1) % allLightboxItems.length
-                setActiveLightboxItem(allLightboxItems[nextIdx])
+                const nextIdx = (currentLightboxIndex + 1) % productShowcase.length
+                setActiveLightboxItem(productShowcase[nextIdx])
               }
             }}
             className="fixed right-3 md:right-8 top-1/2 -translate-y-1/2 p-3 md:p-4 rounded-full bg-white/10 hover:bg-white/25 text-white transition duration-300 backdrop-blur-md border border-white/20 z-[210] group"
@@ -343,20 +295,11 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
             className="my-auto max-h-[75vh] max-w-5xl overflow-hidden rounded-[20px] shadow-2xl flex items-center justify-center relative select-none"
             onClick={(e) => e.stopPropagation()}
           >
-            {activeLightboxItem.type === 'image' ? (
-              <img
-                src={activeLightboxItem.src}
-                alt={activeLightboxItem.title}
-                className="max-h-[75vh] w-auto object-contain rounded-[20px]"
-              />
-            ) : (
-              <video
-                src={activeLightboxItem.src}
-                controls
-                autoPlay
-                className="max-h-[75vh] w-auto rounded-[20px]"
-              />
-            )}
+            <img
+              src={activeLightboxItem.src}
+              alt={activeLightboxItem.title}
+              className="max-h-[75vh] w-auto object-contain rounded-[20px]"
+            />
           </div>
 
           {activeLightboxItem.description && (
@@ -446,30 +389,6 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
           </div>
         </section>
 
-        {/* Master Video Reel Section */}
-        <section className="mt-20 md:mt-28">
-          <div className="relative aspect-[21/9] rounded-[20px] md:rounded-[40px] overflow-hidden border border-[#ebdcb9]/30 bg-black">
-            <video
-              className="absolute left-0 top-0 w-full h-full object-cover"
-              playsInline
-              autoPlay
-              loop
-              muted
-              preload="auto"
-            >
-              <source src="/arvind/hero-video.mp4" type="video/mp4" />
-            </video>
-            <div className="absolute inset-0 bg-gradient-to-t from-[#28282e]/80 via-[#28282e]/20 to-transparent flex flex-col justify-end p-6 md:p-12">
-              <span className="text-[#10b981] text-[12px] font-extrabold uppercase tracking-widest mb-2 block">
-                Corporate Science Film
-              </span>
-              <h2 className="text-white text-[24px] md:text-[48px] font-black tracking-tight leading-none">
-                Pioneering Phytogenic Wellness.
-              </h2>
-            </div>
-          </div>
-        </section>
-
         {/* Filter Bar for Showcase Sections */}
         <div className="mt-20 md:mt-28 flex flex-wrap items-center justify-between gap-4 border-b border-[#ebdcb9]/50 pb-6">
           <div>
@@ -482,7 +401,6 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
               { id: 'ayurvedic', label: 'Ayurvedic Tonics' },
               { id: 'supplements', label: 'Feed Supplements' },
               { id: 'aqua', label: 'Aquaculture Care' },
-              { id: 'reels', label: 'Video Showcase' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -499,122 +417,60 @@ export function ArvindCaseStudy({ isOpen, onClose }: ArvindCaseStudyProps) {
           </div>
         </div>
 
-        {/* SECTION 1: PRODUCT SHOWCASE */}
-        {(activeTab === 'all' || activeTab === 'ayurvedic' || activeTab === 'supplements' || activeTab === 'aqua') && (
-          <section className="mt-12 md:mt-16">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
-              <div>
-                <span className="text-[12px] font-extrabold uppercase tracking-widest text-[#059669]">Phytogenic Portfolio</span>
-                <h3 className="text-[24px] md:text-[36px] font-black">Herbal &amp; Nutritional Solutions</h3>
-              </div>
-              <p className="text-[14px] text-muted font-medium max-w-md">
-                Full gallery of Ayurvedic health boosters, organic trace mineral premixes, and specialized aquaculture growth promoters.
-              </p>
+        {/* PRODUCT SHOWCASE GALLERY */}
+        <section className="mt-12 md:mt-16">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+            <div>
+              <span className="text-[12px] font-extrabold uppercase tracking-widest text-[#059669]">Phytogenic Portfolio</span>
+              <h3 className="text-[24px] md:text-[36px] font-black">Herbal &amp; Nutritional Solutions</h3>
             </div>
+            <p className="text-[14px] text-muted font-medium max-w-md">
+              Full gallery of Ayurvedic health boosters, organic trace mineral premixes, and specialized aquaculture growth promoters.
+            </p>
+          </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {productShowcase
-                .filter((item) => activeTab === 'all' || activeTab === item.category)
-                .map((item, idx) => (
-                  <div
-                    key={idx}
-                    onClick={() => {
-                      setActiveLightboxItem(item)
-                    }}
-                    className="group cursor-pointer bg-white rounded-[28px] p-5 border border-[#ebdcb9]/40 hover:border-[#059669]/50 shadow-sm hover:shadow-xl transition duration-500 flex flex-col justify-between"
-                  >
-                    <div className="relative aspect-[4/3] overflow-hidden rounded-[20px] bg-[#faf9f5]">
-                      <img
-                        src={item.src}
-                        alt={item.title}
-                        className="w-full h-full object-contain p-2 group-hover:scale-105 transition duration-500"
-                      />
-                      <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <span className="bg-white text-[#28282e] text-[12px] font-black uppercase tracking-wider px-5 py-2.5 rounded-full shadow-lg flex items-center gap-2">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                            <circle cx="12" cy="12" r="3" />
-                          </svg>
-                          View Label
-                        </span>
-                      </div>
-                    </div>
-                    <div className="mt-5">
-                      <span className="text-[11px] font-extrabold uppercase tracking-widest text-[#059669]">
-                        {item.subtitle}
-                      </span>
-                      <h4 className="text-[20px] font-extrabold leading-tight text-[#28282e] mt-1 group-hover:text-[#059669] transition duration-300">
-                        {item.title}
-                      </h4>
-                      <p className="text-[13px] text-muted font-medium mt-2 line-clamp-2">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </section>
-        )}
-
-        {/* SECTION 2: VIDEO REELS */}
-        {(activeTab === 'all' || activeTab === 'reels') && (
-          <section className="mt-20 md:mt-28">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
-              <div>
-                <span className="text-[12px] font-extrabold uppercase tracking-widest text-[#059669]">Cinematic Motion</span>
-                <h3 className="text-[24px] md:text-[36px] font-black">Video &amp; Farm Performance Reels</h3>
-              </div>
-              <p className="text-[14px] text-muted font-medium max-w-md">
-                High-definition motion reels, factory tours, aquaculture pond trials, and bio-herbal research films.
-              </p>
-            </div>
-
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {videoReels.map((video, idx) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {productShowcase
+              .filter((item) => activeTab === 'all' || activeTab === item.category)
+              .map((item, idx) => (
                 <div
                   key={idx}
                   onClick={() => {
-                    setActiveLightboxItem(video)
+                    setActiveLightboxItem(item)
                   }}
-                  className="group cursor-pointer bg-white rounded-[28px] p-4 border border-[#ebdcb9]/40 hover:border-[#059669]/50 shadow-sm hover:shadow-xl transition duration-500 flex flex-col justify-between"
+                  className="group cursor-pointer bg-white rounded-[28px] p-5 border border-[#ebdcb9]/40 hover:border-[#059669]/50 shadow-sm hover:shadow-xl transition duration-500 flex flex-col justify-between"
                 >
-                  <div className="relative aspect-[9/16] max-h-[480px] overflow-hidden rounded-[20px] bg-black">
-                    <video
-                      src={video.src}
-                      playsInline
-                      autoPlay
-                      loop
-                      muted
-                      preload="auto"
-                      className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-[20px] bg-[#faf9f5]">
+                    <img
+                      src={item.src}
+                      alt={item.title}
+                      className="w-full h-full object-contain p-2 group-hover:scale-105 transition duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 p-4 flex flex-col justify-between">
-                      <span className="self-end bg-black/60 backdrop-blur-md text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full border border-white/20 flex items-center gap-1.5">
-                        <span className="h-2 w-2 rounded-full bg-[#10b981] animate-pulse"></span>
-                        HD Video Reel
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                      <span className="bg-white text-[#28282e] text-[12px] font-black uppercase tracking-wider px-5 py-2.5 rounded-full shadow-lg flex items-center gap-2">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                          <circle cx="12" cy="12" r="3" />
+                        </svg>
+                        View Label
                       </span>
-                      <div className="text-white">
-                        <span className="text-[11px] text-[#10b981] font-bold uppercase tracking-wider block">
-                          {video.subtitle}
-                        </span>
-                        <h4 className="text-[18px] font-extrabold leading-tight mt-0.5">{video.title}</h4>
-                      </div>
                     </div>
                   </div>
-                  <div className="mt-4 px-1">
-                    <p className="text-[13px] text-muted font-medium line-clamp-2">{video.description}</p>
-                    <span className="inline-flex items-center gap-1 text-[12px] font-black uppercase text-[#059669] tracking-wider mt-3 group-hover:translate-x-1 transition duration-300">
-                      View
-                      <svg width="12" height="12" viewBox="0 0 13 13" fill="none">
-                        <path d="M0 6.5H11M11 6.5L5.93606 1M11 6.5L5.93606 12" stroke="currentColor" strokeWidth="2" />
-                      </svg>
+                  <div className="mt-5">
+                    <span className="text-[11px] font-extrabold uppercase tracking-widest text-[#059669]">
+                      {item.subtitle}
                     </span>
+                    <h4 className="text-[20px] font-extrabold leading-tight text-[#28282e] mt-1 group-hover:text-[#059669] transition duration-300">
+                      {item.title}
+                    </h4>
+                    <p className="text-[13px] text-muted font-medium mt-2 line-clamp-2">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               ))}
-            </div>
-          </section>
-        )}
+          </div>
+        </section>
 
         {/* Closing Case Study Block */}
         <section className="mt-20 md:mt-32 text-center border-t border-[#ebdcb9]/50 pt-16 pb-8">

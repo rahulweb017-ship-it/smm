@@ -60,9 +60,6 @@ export const projects: Project[] = [
   { title: 'Roofing Bucks County', category: 'Roofing Services', image: '/roofing/hero image.png?v=2', video: '/roofing/hero video.mp4' },
   { title: 'Arvind Herbal Labs', category: 'Animal Health', image: '/arvind/hero image.webp' },
   { title: 'PCL Dental & Skin Care', category: 'Dental & Skin Care', image: '/pcl/hero-image.webp', video: '/pcl/hero-video.mp4' },
-  { title: 'Daml', category: 'Bank & Finance', image: 'https://cdn.sanity.io/images/y63jgrcb/production/3b405cf3349ed85abe4537e4846845303eb61cca-2400x1802.jpg?w=750&auto=format' },
-  { title: '56K Cloud', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/e5b92be564115b738f8956f40bc8c1b0551587f9-2000x1500.jpg?w=750&auto=format' },
-  { title: 'Good Use', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/7284a1c86e2a88c768a6b7557c3349a2fa5b9a89-2400x1800.jpg?w=750&auto=format' },
   { title: 'AuroCoin', category: 'Blockchain', image: '/aurocoin/hero-image.webp', video: '/aurocoin/hero-video.mp4' },
 ]
 

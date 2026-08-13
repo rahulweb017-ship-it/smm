@@ -15,6 +15,7 @@ import { ReplugCaseStudy } from './ReplugCaseStudy'
 import { RoofingCaseStudy } from './RoofingCaseStudy'
 import { ArvindCaseStudy } from './ArvindCaseStudy'
 import { PclCaseStudy } from './PclCaseStudy'
+import { AuroCoinCaseStudy } from './AuroCoinCaseStudy'
 
 const projectDescriptions: Record<string, string> = {
   'The Forsted Vault': 'Exquisite fine jewellery and custom master craftsmanship',
@@ -32,6 +33,7 @@ const projectDescriptions: Record<string, string> = {
   'Roofing Bucks County': 'Residential roof replacements, GAF shingle systems, gutters, and emergency repair',
   'Arvind Herbal Labs': 'Ayurvedic formulations, bio-herbal feed additives, and veterinary healthcare',
   'PCL Dental & Skin Care': 'Sedation dentistry, cosmetic smile design, and clinical skincare campaigns',
+  'AuroCoin': 'Decentralized autonomous currency, smart contracts, and yield protocol',
   'Doxy': 'Sleek, telemedicine-optimized patient engagement',
   'Rival': 'High-performance metrics and analytics dashboard',
   'Office Space': 'Dynamic real estate leasing and booking workspace',
@@ -150,6 +152,7 @@ export function WorkSection() {
   const [isRoofingStudyOpen, setIsRoofingStudyOpen] = useState(false)
   const [isArvindStudyOpen, setIsArvindStudyOpen] = useState(false)
   const [isPclStudyOpen, setIsPclStudyOpen] = useState(false)
+  const [isAuroCoinStudyOpen, setIsAuroCoinStudyOpen] = useState(false)
 
   const filterList1 = ['All', 'IT Solutions Marketing', 'Short Video Content Creation', 'Bank & Finance', 'Blockchain', 'Education', 'E-Commerce', 'Food & Drinks']
   const filterList2 = ['Immigration', 'Healthcare', 'Animal Health', 'Dental & Skin Care', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
@@ -259,6 +262,8 @@ export function WorkSection() {
                   ? () => setIsArvindStudyOpen(true)
                   : project.title === 'PCL Dental & Skin Care'
                   ? () => setIsPclStudyOpen(true)
+                  : project.title === 'AuroCoin'
+                  ? () => setIsAuroCoinStudyOpen(true)
                   : undefined
               }
             />
@@ -354,6 +359,12 @@ export function WorkSection() {
       <PclCaseStudy
         isOpen={isPclStudyOpen}
         onClose={() => setIsPclStudyOpen(false)}
+      />
+
+      {/* AuroCoin Blockchain Case Study Presentation Overlay */}
+      <AuroCoinCaseStudy
+        isOpen={isAuroCoinStudyOpen}
+        onClose={() => setIsAuroCoinStudyOpen(false)}
       />
     </div>
   )

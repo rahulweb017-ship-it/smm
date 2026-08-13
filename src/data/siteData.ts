@@ -63,7 +63,7 @@ export const projects: Project[] = [
   { title: 'Daml', category: 'Bank & Finance', image: 'https://cdn.sanity.io/images/y63jgrcb/production/3b405cf3349ed85abe4537e4846845303eb61cca-2400x1802.jpg?w=750&auto=format' },
   { title: '56K Cloud', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/e5b92be564115b738f8956f40bc8c1b0551587f9-2000x1500.jpg?w=750&auto=format' },
   { title: 'Good Use', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/7284a1c86e2a88c768a6b7557c3349a2fa5b9a89-2400x1800.jpg?w=750&auto=format' },
-  { title: 'Kargo', category: 'Logistics', image: 'https://cdn.sanity.io/images/y63jgrcb/production/c28a63801cc0e6649246ac62d1e2fed400dd934a-1520x1140.jpg?w=750&auto=format' },
+  { title: 'AuroCoin', category: 'Blockchain', image: '/aurocoin/hero-image.webp', video: '/aurocoin/hero-video.mp4' },
 ]
 
 export const services: Service[] = [

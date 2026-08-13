@@ -13,6 +13,7 @@ import { GetSetGoCaseStudy } from './GetSetGoCaseStudy'
 import { LimcoCaseStudy } from './LimcoCaseStudy'
 import { ReplugCaseStudy } from './ReplugCaseStudy'
 import { RoofingCaseStudy } from './RoofingCaseStudy'
+import { ArvindCaseStudy } from './ArvindCaseStudy'
 
 const projectDescriptions: Record<string, string> = {
   'The Forsted Vault': 'Exquisite fine jewellery and custom master craftsmanship',
@@ -28,6 +29,7 @@ const projectDescriptions: Record<string, string> = {
   'Limco Logistics': 'Global air freight charters, vehicle transport by air, and trade campaigns',
   'Replug': 'Next-gen TWS earbuds, smart charging series, and e-commerce brand collateral',
   'Roofing Bucks County': 'Residential roof replacements, GAF shingle systems, gutters, and emergency repair',
+  'Arvind Herbal Labs': 'Ayurvedic formulations, bio-herbal feed additives, and veterinary healthcare',
   'Doxy': 'Sleek, telemedicine-optimized patient engagement',
   'Rival': 'High-performance metrics and analytics dashboard',
   'Office Space': 'Dynamic real estate leasing and booking workspace',
@@ -144,6 +146,7 @@ export function WorkSection() {
   const [isLimcoStudyOpen, setIsLimcoStudyOpen] = useState(false)
   const [isReplugStudyOpen, setIsReplugStudyOpen] = useState(false)
   const [isRoofingStudyOpen, setIsRoofingStudyOpen] = useState(false)
+  const [isArvindStudyOpen, setIsArvindStudyOpen] = useState(false)
 
   const filterList1 = ['All', 'IT Solutions Marketing', 'Short Video Content Creation', 'Bank & Finance', 'Blockchain', 'Education', 'E-Commerce', 'Food & Drinks']
   const filterList2 = ['Immigration', 'Healthcare', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
@@ -249,6 +252,8 @@ export function WorkSection() {
                   ? () => setIsReplugStudyOpen(true)
                   : project.title === 'Roofing Bucks County'
                   ? () => setIsRoofingStudyOpen(true)
+                  : project.title === 'Arvind Herbal Labs'
+                  ? () => setIsArvindStudyOpen(true)
                   : undefined
               }
             />
@@ -332,6 +337,12 @@ export function WorkSection() {
       <RoofingCaseStudy
         isOpen={isRoofingStudyOpen}
         onClose={() => setIsRoofingStudyOpen(false)}
+      />
+
+      {/* Arvind Herbal Labs Case Study Presentation Overlay */}
+      <ArvindCaseStudy
+        isOpen={isArvindStudyOpen}
+        onClose={() => setIsArvindStudyOpen(false)}
       />
     </div>
   )

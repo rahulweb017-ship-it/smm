@@ -58,7 +58,7 @@ export const projects: Project[] = [
   { title: 'Emmbros Autocomp', category: 'Industry', image: '/emmbros/hero image.png?v=2', video: '/emmbros/hero video.mp4' },
   { title: 'Get Set Go Digital', category: 'IT Solutions Marketing', image: '/getsetgo/hero image .png?v=2', video: '/getsetgo/hero video .mp4' },
   { title: 'Roofing Bucks County', category: 'Roofing Services', image: '/roofing/hero image.png?v=2', video: '/roofing/hero video.mp4' },
-  { title: 'Arvind Herbal Labs', category: 'Healthcare', image: '/arvind/hero image.webp' },
+  { title: 'Arvind Herbal Labs', category: 'Animal Health', image: '/arvind/hero image.webp' },
   { title: 'Resolute', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/17f7c3a240de7f47698952ce2c9ed3df48817a41-2400x1802.jpg?w=750&auto=format' },
   { title: 'Daml', category: 'Bank & Finance', image: 'https://cdn.sanity.io/images/y63jgrcb/production/3b405cf3349ed85abe4537e4846845303eb61cca-2400x1802.jpg?w=750&auto=format' },
   { title: '56K Cloud', category: 'Software', image: 'https://cdn.sanity.io/images/y63jgrcb/production/e5b92be564115b738f8956f40bc8c1b0551587f9-2000x1500.jpg?w=750&auto=format' },

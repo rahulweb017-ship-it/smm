@@ -149,7 +149,7 @@ export function WorkSection() {
   const [isArvindStudyOpen, setIsArvindStudyOpen] = useState(false)
 
   const filterList1 = ['All', 'IT Solutions Marketing', 'Short Video Content Creation', 'Bank & Finance', 'Blockchain', 'Education', 'E-Commerce', 'Food & Drinks']
-  const filterList2 = ['Immigration', 'Healthcare', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
+  const filterList2 = ['Immigration', 'Healthcare', 'Animal Health', 'Home Remodeling', 'UX/UI', 'E-Bikes', 'Logistics', 'Roofing Services', 'Jewellery', 'Industry']
 
   const visibleProjects = useMemo(
     () => (active === 'All' ? projects : projects.filter((project) => project.category === active)),

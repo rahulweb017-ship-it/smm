@@ -96,6 +96,20 @@ export function HeroSection() {
         delay: 0.5,
       }
     )
+
+    if (containerRef.current) {
+      gsap.fromTo(
+        containerRef.current,
+        { scale: 0, opacity: 0, transformOrigin: 'bottom right' },
+        {
+          scale: 1,
+          opacity: 1,
+          duration: 1.2,
+          ease: 'power4.out',
+          delay: 0.3,
+        }
+      )
+    }
   }, [])
 
   useEffect(() => {
@@ -211,7 +225,7 @@ export function HeroSection() {
           </ul>
         </div>
 
-        <div ref={containerRef} className="heroVideos relative aspect-[810/460]">
+        <div ref={containerRef} className="heroVideos relative aspect-[810/460] origin-bottom-right">
           {sliderItems.map((item, index) => (
             <a
               key={item.name}

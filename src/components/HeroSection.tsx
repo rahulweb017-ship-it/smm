@@ -12,22 +12,22 @@ interface SliderItem {
 const sliderItems: SliderItem[] = [
   {
     name: 'Scalo Restaurant',
-    logo: '/scalo/hero-section.png',
-    image: '/scalo/hero-section.png',
+    logo: '/scalo/hero-section.webp',
+    image: '/scalo/hero-section.webp',
     video: '/scalo/hero-video.mp4',
     link: '#work',
   },
   {
     name: 'Imperial Branding Agency',
-    logo: '/luis/hero image.png?v=2',
-    image: '/luis/hero image.png?v=2',
+    logo: '/luis/hero-image.webp',
+    image: '/luis/hero-image.webp',
     video: '/luis/hero video.mp4',
     link: '#work',
   },
   {
     name: 'The Forsted Vault',
-    logo: '/jewellery/Ring .jpg',
-    image: '/jewellery/Mockup.jpg',
+    logo: '/jewellery/ring.webp',
+    image: '/jewellery/mockup.webp',
     video: '/jewellery/faith.mp4',
     link: '#work',
   },
@@ -238,24 +238,27 @@ export function HeroSection() {
             >
               {item.video ? (
                 <div className="absolute inset-0 w-full h-full rounded-[12px] md:rounded-[30px] overflow-hidden">
-                  <video
-                    className={`pointer-events-none absolute left-0 top-0 w-full h-full object-cover transition-opacity duration-1000 ${
-                      index === activeIndex && playVideo ? 'opacity-100' : 'opacity-0'
-                    }`}
-                    playsInline
-                    preload="auto"
-                    autoPlay
-                    loop
-                    muted
-                  >
-                    <source src={item.video} type="video/mp4" />
-                  </video>
+                  {index === activeIndex && playVideo && (
+                    <video
+                      className="pointer-events-none absolute left-0 top-0 w-full h-full object-cover transition-opacity duration-1000"
+                      playsInline
+                      preload="metadata"
+                      autoPlay
+                      loop
+                      muted
+                    >
+                      <source src={item.video} type="video/mp4" />
+                    </video>
+                  )}
                   <img
                     className={`pointer-events-none absolute left-0 top-0 w-full h-full object-cover transition-opacity duration-1000 ${
                       index === activeIndex && playVideo ? 'opacity-0' : 'opacity-100'
                     }`}
                     src={item.image || item.logo}
                     alt={item.name}
+                    loading={index === 0 ? 'eager' : 'lazy'}
+                    fetchPriority={index === 0 ? 'high' : 'low'}
+                    decoding="async"
                   />
                 </div>
               ) : (
@@ -263,6 +266,9 @@ export function HeroSection() {
                   className="pointer-events-none absolute left-0 top-0 w-full aspect-[810/455] object-cover rounded-[12px] md:rounded-[30px] h-full"
                   src={item.image || item.logo}
                   alt={item.name}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  fetchPriority={index === 0 ? 'high' : 'low'}
+                  decoding="async"
                 />
               )}
               

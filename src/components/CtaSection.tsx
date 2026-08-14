@@ -20,6 +20,7 @@ export function CtaSection() {
             <video
               className="w-full h-full object-cover"
               src="/jewellery/faith.mp4"
+              preload="none"
               autoPlay
               loop
               muted
@@ -32,6 +33,7 @@ export function CtaSection() {
             <video
               className="w-full h-full object-cover"
               src="/scalo/hero-video.mp4"
+              preload="none"
               autoPlay
               loop
               muted
@@ -44,6 +46,7 @@ export function CtaSection() {
             <video
               className="w-full h-full object-cover"
               src="/luis/hero video.mp4"
+              preload="none"
               autoPlay
               loop
               muted

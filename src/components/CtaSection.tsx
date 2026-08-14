@@ -13,10 +13,10 @@ export function CtaSection() {
         </div>
 
         {/* CENTER COLUMN: 3D Stacked Overlapping Video Cards */}
-        <div className="relative flex items-center justify-center min-h-[300px] md:min-h-[380px] my-6 lg:my-0">
+        <div className="relative flex items-center justify-center min-h-[260px] sm:min-h-[300px] md:min-h-[380px] my-6 lg:my-0 overflow-hidden sm:overflow-visible">
           
           {/* Back Left Card */}
-          <div className="absolute left-2 sm:left-6 bottom-4 w-[200px] sm:w-[260px] md:w-[300px] aspect-[4/3] rounded-[24px] overflow-hidden border-2 border-white shadow-xl -rotate-6 z-10 bg-[#28282e] transition duration-500 hover:rotate-0 hover:z-30">
+          <div className="absolute left-0 sm:left-6 bottom-2 sm:bottom-4 w-[160px] sm:w-[260px] md:w-[300px] aspect-[4/3] rounded-[18px] sm:rounded-[24px] overflow-hidden border-2 border-white shadow-xl -rotate-6 z-10 bg-[#28282e] transition duration-500 hover:rotate-0 hover:z-30">
             <video
               className="w-full h-full object-cover"
               src="/jewellery/faith.mp4"
@@ -28,7 +28,7 @@ export function CtaSection() {
           </div>
 
           {/* Back Right Card */}
-          <div className="absolute right-2 sm:right-6 top-2 w-[220px] sm:w-[280px] md:w-[320px] aspect-[4/3] rounded-[24px] overflow-hidden border-2 border-white shadow-xl rotate-6 z-10 bg-[#28282e] transition duration-500 hover:rotate-0 hover:z-30">
+          <div className="absolute right-0 sm:right-6 top-1 sm:top-2 w-[170px] sm:w-[280px] md:w-[320px] aspect-[4/3] rounded-[18px] sm:rounded-[24px] overflow-hidden border-2 border-white shadow-xl rotate-6 z-10 bg-[#28282e] transition duration-500 hover:rotate-0 hover:z-30">
             <video
               className="w-full h-full object-cover"
               src="/scalo/hero-video.mp4"
@@ -40,7 +40,7 @@ export function CtaSection() {
           </div>
 
           {/* Front Center Highlight Card */}
-          <div className="relative z-20 w-[240px] sm:w-[320px] md:w-[360px] aspect-[16/10] rounded-[24px] overflow-hidden border-4 border-white shadow-2xl bg-[#28282e] transform hover:scale-105 transition duration-500">
+          <div className="relative z-20 w-[190px] sm:w-[320px] md:w-[360px] aspect-[16/10] rounded-[18px] sm:rounded-[24px] overflow-hidden border-2 sm:border-4 border-white shadow-2xl bg-[#28282e] transform hover:scale-105 transition duration-500">
             <video
               className="w-full h-full object-cover"
               src="/luis/hero video.mp4"

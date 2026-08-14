@@ -173,7 +173,7 @@ export function WorkSection() {
   return (
     <div id="work">
       {/* Filters Header Section */}
-      <section className="site-container projectGridFilter relative z-[20] font-bold text-[12px] lg:text-[14px] grid grid-cols-[40%_30%_30%] md:grid-cols-[36%_25%_15%_12%] lg:grid-cols-[3%_33%_25%_15%_12%] md:gap-[3%] pt-[80px] lg:pt-[100px] mb-[40px] lg:mb-[70px]">
+      <section className="site-container projectGridFilter relative z-[20] font-bold text-[12px] lg:text-[14px] flex flex-wrap md:grid md:grid-cols-[36%_25%_15%_12%] lg:grid-cols-[3%_33%_25%_15%_12%] gap-6 md:gap-[3%] pt-[50px] md:pt-[80px] lg:pt-[100px] mb-[30px] md:mb-[40px] lg:mb-[70px]">
         <div className="hidden lg:block lg:col-start-2 font-[800]">
           <span className="block mb-2 text-[#28282e]">Companies we help grow</span>
           <svg width="206" height="7" viewBox="0 0 206 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,9 +181,9 @@ export function WorkSection() {
           </svg>
         </div>
         
-        <div className="h3 text-[30px] bigger font-[800] text-[#28282e] leading-none self-start">Work.</div>
+        <div className="w-full md:w-auto text-[30px] md:text-[40px] font-[800] text-[#28282e] leading-none self-start">Work.</div>
         
-        <div>
+        <div className="flex-1 min-w-[130px]">
           <ul className="projectGridFilterIndustry flex flex-col gap-2">
             {filterList1.map((filter) => (
               <li
@@ -204,7 +204,7 @@ export function WorkSection() {
           </ul>
         </div>
         
-        <div>
+        <div className="flex-1 min-w-[130px]">
           <ul className="projectGridFilterType flex flex-col gap-2">
             {filterList2.map((filter) => (
               <li
@@ -228,7 +228,7 @@ export function WorkSection() {
 
       {/* Projects Grid Section */}
       <section className="site-container mb-[80px] lg:mb-[150px]">
-        <ul className="ProjectsList grid gap-[25px_14px] md:gap-[40px_20px] grid-cols-2 lg:grid-cols-6 items-start">
+        <ul className="ProjectsList grid gap-[25px_14px] md:gap-[40px_20px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 items-start">
           {visibleProjects.map((project, index) => (
             <ProjectCard
               key={project.title}

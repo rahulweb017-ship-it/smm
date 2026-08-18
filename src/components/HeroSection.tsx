@@ -42,17 +42,8 @@ const sliderItems: SliderItem[] = [
 
 export function HeroSection() {
   const [activeIndex, setActiveIndex] = useState(0)
-  const [playVideo, setPlayVideo] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const titleRef = useRef<HTMLHeadingElement>(null)
-
-  useEffect(() => {
-    setPlayVideo(false)
-    const timer = setTimeout(() => {
-      setPlayVideo(true)
-    }, 3000)
-    return () => clearTimeout(timer)
-  }, [activeIndex])
 
   useEffect(() => {
     if (titleRef.current) {
@@ -238,28 +229,16 @@ export function HeroSection() {
             >
               {item.video ? (
                 <div className="absolute inset-0 w-full h-full rounded-[12px] md:rounded-[30px] overflow-hidden">
-                  {index === activeIndex && playVideo && (
-                    <video
-                      className="pointer-events-none absolute left-0 top-0 w-full h-full object-cover transition-opacity duration-1000"
-                      playsInline
-                      preload="metadata"
-                      autoPlay
-                      loop
-                      muted
-                    >
-                      <source src={item.video} type="video/mp4" />
-                    </video>
-                  )}
-                  <img
-                    className={`pointer-events-none absolute left-0 top-0 w-full h-full object-cover transition-opacity duration-1000 ${
-                      index === activeIndex && playVideo ? 'opacity-0' : 'opacity-100'
-                    }`}
-                    src={item.image || item.logo}
-                    alt={item.name}
-                    loading={index === 0 ? 'eager' : 'lazy'}
-                    fetchPriority={index === 0 ? 'high' : 'low'}
-                    decoding="async"
-                  />
+                  <video
+                    className="pointer-events-none absolute left-0 top-0 w-full h-full object-cover"
+                    playsInline
+                    preload="auto"
+                    autoPlay
+                    loop
+                    muted
+                  >
+                    <source src={item.video} type="video/mp4" />
+                  </video>
                 </div>
               ) : (
                 <img

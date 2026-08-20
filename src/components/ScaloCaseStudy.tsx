@@ -74,7 +74,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
 
   const menuItems: LightboxItem[] = [
     {
-      src: '/scalo/Bar food menu-cr.jpg',
+      src: '/scalo/Bar food menu-cr.webp',
       title: 'Scalo Bar & Bites Menu',
       subtitle: 'Editorial Print Collateral',
       type: 'image',
@@ -82,7 +82,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Handcrafted bar snacks, specialty tapas, and artisanal craft beers presented in a clean two-column serif layout.',
     },
     {
-      src: '/scalo/lounge menu.png',
+      src: '/scalo/lounge menu.webp',
       title: 'Scalo Lounge & Spirits',
       subtitle: 'Beverage & Cocktail Program',
       type: 'image',
@@ -90,7 +90,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Comprehensive wine list, signature smoked cocktails, and digestifs designed with warm charcoal and cream tones.',
     },
     {
-      src: '/scalo/christmas menu.png',
+      src: '/scalo/christmas menu.webp',
       title: 'Christmas Tasting Menu',
       subtitle: 'Holiday Edition Collateral',
       type: 'image',
@@ -98,7 +98,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Multi-course holiday feast menu highlighting festive ingredients, wine pairings, and bespoke winter typography.',
     },
     {
-      src: '/scalo/new eve menu.jpg',
+      src: '/scalo/new eve menu.webp',
       title: "New Year's Eve Gala Menu",
       subtitle: 'Exclusive Event Card',
       type: 'image',
@@ -109,7 +109,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
 
   const graphicPosts: LightboxItem[] = [
     {
-      src: '/scalo/scalo_post.jpg',
+      src: '/scalo/scalo_post.webp',
       title: 'Scalo Core Identity Post',
       subtitle: 'Social Campaign Hero',
       type: 'image',
@@ -117,7 +117,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Signature brand post setting the visual tone with warm terracotta gradients, editorial typography, and raw dining portraiture.',
     },
     {
-      src: '/scalo/brunch.jpg',
+      src: '/scalo/brunch.webp',
       title: 'Weekend Brunch Campaign',
       subtitle: 'Social Media Graphic',
       type: 'image',
@@ -125,7 +125,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Sun-drenched morning dining campaign created for Instagram feed and digital display banners.',
     },
     {
-      src: '/scalo/christmas post.jpg',
+      src: '/scalo/christmas post.webp',
       title: 'Holiday Season Promo Graphic',
       subtitle: 'Campaign Graphic',
       type: 'image',
@@ -133,7 +133,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Warm festive atmosphere promotion focusing on private dining reservations and winter cocktail specials.',
     },
     {
-      src: '/scalo/thanksgiving.jpg',
+      src: '/scalo/thanksgiving.webp',
       title: 'Thanksgiving Harvest Edition',
       subtitle: 'Special Edition Graphic',
       type: 'image',
@@ -141,7 +141,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'Rustic autumn color story celebrating seasonal farm-to-table roasted meats and artisanal sides.',
     },
     {
-      src: '/scalo/pizza post.jpg',
+      src: '/scalo/pizza post.webp',
       title: 'Artisanal Pizza Event Graphic',
       subtitle: 'High-Impact Social Reel Cover',
       type: 'image',
@@ -149,7 +149,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
       description: 'High-contrast typography paired with close-up woodfired crust textures to drive evening booking conversions.',
     },
     {
-      src: '/scalo/pizza.jpg',
+      src: '/scalo/pizza.webp',
       title: 'Neapolitan Sourdough Feature',
       subtitle: 'Culinary Photography Graphic',
       type: 'image',
@@ -389,7 +389,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/scalo/hero-section.png"
+              src="/scalo/hero-section.webp"
               alt="Scalo Restaurant Brand Collage"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />
@@ -608,7 +608,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <div className="overflow-hidden rounded-[15px]">
                   <img
-                    src="/scalo/Bruschetta.jpg"
+                    src="/scalo/Bruschetta.webp"
                     alt="Plated Bruschetta"
                     className="w-full aspect-[1/1] object-cover rounded-[15px] hover:scale-[1.03] duration-500"
                   />
@@ -621,7 +621,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <div className="overflow-hidden rounded-[15px]">
                   <img
-                    src="/scalo/Seabass.jpg"
+                    src="/scalo/Seabass.webp"
                     alt="Seared Sea Bass"
                     className="w-full aspect-[1/1] object-cover rounded-[15px] hover:scale-[1.03] duration-500"
                   />
@@ -634,7 +634,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <div className="overflow-hidden rounded-[15px]">
                   <img
-                    src="/scalo/cover.jpg"
+                    src="/scalo/cover.webp"
                     alt="Signature Dining Room"
                     className="w-full aspect-[1/1] object-cover rounded-[15px] hover:scale-[1.03] duration-500"
                   />

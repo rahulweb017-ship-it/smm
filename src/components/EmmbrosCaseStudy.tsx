@@ -74,7 +74,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
 
   const forgedComponents: LightboxItem[] = [
     {
-      src: '/emmbros/spindles.jpg',
+      src: '/emmbros/spindles.webp',
       title: 'Precision Forged Axle Spindles',
       subtitle: 'Heavy-Duty Automotive Powertrain',
       type: 'image',
@@ -82,7 +82,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'High-tensile forged spindles engineered for heavy commercial vehicles, agricultural machinery, and off-road applications.',
     },
     {
-      src: '/emmbros/spandles.jpg',
+      src: '/emmbros/spandles.webp',
       title: 'Custom Machined Stub Axles',
       subtitle: 'CNC Precision Finishing',
       type: 'image',
@@ -90,7 +90,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Heat-treated alloy steel stub axles with ultra-tight tolerance grinding for extreme load resistance.',
     },
     {
-      src: '/emmbros/ring nut.jpg',
+      src: '/emmbros/ring nut.webp',
       title: 'Heavy Industrial Ring Nuts',
       subtitle: 'Fastening & Retaining Components',
       type: 'image',
@@ -98,7 +98,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Precision threaded lock ring nuts manufactured to ISO/TS automotive standards for drivetrain stability.',
     },
     {
-      src: '/emmbros/slip yoke.jpg',
+      src: '/emmbros/slip yoke.webp',
       title: 'Drivetrain Slip Yoke Forgings',
       subtitle: 'Propeller Shaft Components',
       type: 'image',
@@ -106,7 +106,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Forged steel slip yokes built to withstand torsional stress and high RPM rotational loads.',
     },
     {
-      src: '/emmbros/PLANETARY.jpg',
+      src: '/emmbros/PLANETARY.webp',
       title: 'Planetary Gear Carriers',
       subtitle: 'Transmission & Reduction Gears',
       type: 'image',
@@ -114,7 +114,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Precision forged planetary gear hubs for heavy tractor axles, earthmovers, and construction equipment.',
     },
     {
-      src: '/emmbros/plantcerier.jpg',
+      src: '/emmbros/plantcerier.webp',
       title: 'Planet Carrier Heavy Assembly',
       subtitle: 'Earthmoving Machinery Parts',
       type: 'image',
@@ -122,7 +122,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Heavy-duty forged planet carriers engineered for maximum torque distribution and extended fatigue life.',
     },
     {
-      src: '/emmbros/Spools - Copy.jpg',
+      src: '/emmbros/Spools - Copy.webp',
       title: 'Hydraulic Spool Valve Bodies',
       subtitle: 'Fluid Power Components',
       type: 'image',
@@ -130,7 +130,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Precision bored hydraulic valve spools designed for high-pressure fluid control systems.',
     },
     {
-      src: '/emmbros/product 4.jpg',
+      src: '/emmbros/product 4.webp',
       title: 'Precision Powertrain Shafts',
       subtitle: 'Engineered Drive Shafts',
       type: 'image',
@@ -141,7 +141,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
 
   const industrialExcellence: LightboxItem[] = [
     {
-      src: '/emmbros/forging Excellence.jpg',
+      src: '/emmbros/forging Excellence.webp',
       title: 'Forging Excellence Masterclass',
       subtitle: 'Metallurgical Mastery & Quality Assurance',
       type: 'image',
@@ -149,7 +149,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'State-of-the-art closed die forging presses, induction heating furnaces, and metallurgical lab testing.',
     },
     {
-      src: '/emmbros/Quality Machine.jpg',
+      src: '/emmbros/Quality Machine.webp',
       title: 'CNC Quality Inspection Center',
       subtitle: 'Coordinate Measuring Machine (CMM)',
       type: 'image',
@@ -157,7 +157,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Sub-micron precision CMM inspection ensuring 100% dimensional accuracy across all production batches.',
     },
     {
-      src: '/emmbros/Team colaboration.jpg',
+      src: '/emmbros/Team colaboration.webp',
       title: 'Engineering R&D Team Collaboration',
       subtitle: 'CAD/CAM Simulation & Tooling',
       type: 'image',
@@ -165,7 +165,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'In-house tool design team utilizing 3D forging simulation software to optimize material flow and grain structure.',
     },
     {
-      src: '/emmbros/exhibition invite.jpg',
+      src: '/emmbros/exhibition invite.webp',
       title: 'Auto Expo Global Exhibition Showcase',
       subtitle: 'International Trade Presentation',
       type: 'image',
@@ -173,7 +173,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Official exhibition collateral presenting Emmbros Autocomp components to global automotive manufacturers.',
     },
     {
-      src: '/emmbros/screencapture-emmbros-2026-08-08-14_52_35.png',
+      src: '/emmbros/screencapture-emmbros-2026-08-08-14_52_35.webp',
       title: 'Emmbros Autocomp Corporate Portal',
       subtitle: 'Web Architecture & Digital Presence',
       type: 'image',
@@ -184,7 +184,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
 
   const brandCampaigns: LightboxItem[] = [
     {
-      src: '/emmbros/Environment Day.jpg',
+      src: '/emmbros/Environment Day.webp',
       title: 'Green Industrial Eco Initiative',
       subtitle: 'World Environment Day Campaign',
       type: 'image',
@@ -192,7 +192,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Promoting sustainable manufacturing practices, solar-powered forging plants, and zero-waste recycling.',
     },
     {
-      src: '/emmbros/labour day.jpg',
+      src: '/emmbros/labour day.webp',
       title: 'Honoring Industrial Craftsmanship',
       subtitle: 'International Workers Day Tribute',
       type: 'image',
@@ -200,7 +200,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Celebrating the dedicated engineers, machinists, and technicians behind Emmbros industrial excellence.',
     },
     {
-      src: '/emmbros/happy teacher day.jpg',
+      src: '/emmbros/happy teacher day.webp',
       title: 'Engineering Mentorship Campaign',
       subtitle: 'Teachers Day Brand Creative',
       type: 'image',
@@ -208,7 +208,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Acknowledging industrial mentors and master blacksmiths who train the next generation of engineers.',
     },
     {
-      src: '/emmbros/Happy birthday pulkit Mehta.jpg',
+      src: '/emmbros/Happy birthday pulkit Mehta.webp',
       title: 'Executive Leadership Celebration',
       subtitle: 'Corporate Milestone Creative',
       type: 'image',
@@ -216,7 +216,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Celebrating leadership vision and business expansion across global automotive markets.',
     },
     {
-      src: '/emmbros/dec-1.jpg',
+      src: '/emmbros/dec-1.webp',
       title: 'Year-End Engineering Milestone 01',
       subtitle: 'Industrial Showcase Banner',
       type: 'image',
@@ -224,7 +224,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Highlighting annual production benchmarks, new forging press lines, and international OEM partnerships.',
     },
     {
-      src: '/emmbros/dec-4.jpg',
+      src: '/emmbros/dec-4.webp',
       title: 'Year-End Engineering Milestone 02',
       subtitle: 'Precision Component Banner',
       type: 'image',
@@ -232,7 +232,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
       description: 'Visual showcase of precision CNC machined components manufactured for defense and commercial vehicles.',
     },
     {
-      src: '/emmbros/dec-5.jpg',
+      src: '/emmbros/dec-5.webp',
       title: 'Year-End Engineering Milestone 03',
       subtitle: 'Global Supply Chain Banner',
       type: 'image',
@@ -435,7 +435,7 @@ export function EmmbrosCaseStudy({ isOpen, onClose }: EmmbrosCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/emmbros/hero image.png"
+              src="/emmbros/hero image.webp"
               alt="Emmbros Autocomp Industrial Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

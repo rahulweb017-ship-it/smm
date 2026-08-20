@@ -74,7 +74,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
 
   const uiSlides: LightboxItem[] = [
     {
-      src: '/rethink/slide-1.jpg',
+      src: '/rethink/slide-1.webp',
       title: 'Digital Product Architecture',
       subtitle: 'UI/UX Design Framework',
       type: 'image',
@@ -82,7 +82,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Comprehensive design system layout defining component hierarchies, layout grids, and interactive state rules.',
     },
     {
-      src: '/rethink/slide-2.jpg',
+      src: '/rethink/slide-2.webp',
       title: 'User Flow & Interface Journey',
       subtitle: 'UX Mapping & Wireframes',
       type: 'image',
@@ -90,7 +90,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'End-to-end user navigation flow engineered to reduce friction and maximize conversion throughput.',
     },
     {
-      src: '/rethink/slide-3.jpg',
+      src: '/rethink/slide-3.webp',
       title: 'Sleek Dashboard Components',
       subtitle: 'Product Interface Design',
       type: 'image',
@@ -98,7 +98,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'High-density metric cards, data visualization widgets, and dark/light adaptive color tokens.',
     },
     {
-      src: '/rethink/slide-4.jpg',
+      src: '/rethink/slide-4.webp',
       title: 'Mobile First Responsive System',
       subtitle: 'Cross-Platform UI Suite',
       type: 'image',
@@ -106,7 +106,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Fluid mobile application layouts designed for seamless touch interactions and gesture controls.',
     },
     {
-      src: '/rethink/slide-11.jpg',
+      src: '/rethink/slide-11.webp',
       title: 'Design System Token Library',
       subtitle: 'Design System & Typography',
       type: 'image',
@@ -114,7 +114,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Unified font pairings, spatial spacing scale, and accessible contrast ratios for enterprise apps.',
     },
     {
-      src: '/rethink/S-Slide-1.jpg',
+      src: '/rethink/S-Slide-1.webp',
       title: 'Interactive Prototype Showcase 01',
       subtitle: 'Product Experience Deck',
       type: 'image',
@@ -122,7 +122,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Micro-interaction animations, button states, and modal overlay behavior specs.',
     },
     {
-      src: '/rethink/S-Slide-2.jpg',
+      src: '/rethink/S-Slide-2.webp',
       title: 'Interactive Prototype Showcase 02',
       subtitle: 'Product Experience Deck',
       type: 'image',
@@ -130,7 +130,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Dynamic filtering components, search experience design, and data table states.',
     },
     {
-      src: '/rethink/sSlide-1.jpg',
+      src: '/rethink/sSlide-1.webp',
       title: 'Studio Overview & Vision',
       subtitle: 'Agency Presentation Deck',
       type: 'image',
@@ -141,7 +141,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
 
   const claritySuite: LightboxItem[] = [
     {
-      src: '/rethink/Clarity-1.jpg',
+      src: '/rethink/Clarity-1.webp',
       title: 'Visual Clarity Framework 01',
       subtitle: 'Information Hierarchy',
       type: 'image',
@@ -149,7 +149,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'De-cluttering complex data flows to deliver effortless readability and intuitive user focus.',
     },
     {
-      src: '/rethink/Clarity-2.jpg',
+      src: '/rethink/Clarity-2.webp',
       title: 'Visual Clarity Framework 02',
       subtitle: 'Micro-Typography & Layout',
       type: 'image',
@@ -157,7 +157,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Editorial spacing, focal point alignment, and clean visual grouping for web dashboards.',
     },
     {
-      src: '/rethink/Clarity-3.jpg',
+      src: '/rethink/Clarity-3.webp',
       title: 'Visual Clarity Framework 03',
       subtitle: 'Accessibility & Color Tokens',
       type: 'image',
@@ -168,7 +168,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
 
   const adCampaigns: LightboxItem[] = [
     {
-      src: '/rethink/ADD.jpg',
+      src: '/rethink/ADD.webp',
       title: 'Rethink Studio Brand Campaign',
       subtitle: 'Global Ad Launch Graphic',
       type: 'image',
@@ -176,7 +176,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Bold promotional ad campaign communicating high-end digital product design services.',
     },
     {
-      src: '/rethink/ADD-1.jpg',
+      src: '/rethink/ADD-1.webp',
       title: 'UX/UI Excellence Showcase',
       subtitle: 'Digital & Print Ad',
       type: 'image',
@@ -184,7 +184,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'High-impact advertising feature spotlighting creative agency capabilities and case study results.',
     },
     {
-      src: '/rethink/ADD-2.jpg',
+      src: '/rethink/ADD-2.webp',
       title: 'Product Transformation Series',
       subtitle: 'Social Ad Campaign',
       type: 'image',
@@ -192,7 +192,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Modern editorial graphic promoting startup product redesigns and conversion optimization.',
     },
     {
-      src: '/rethink/ADD-3.jpg',
+      src: '/rethink/ADD-3.webp',
       title: 'Design-Driven Growth Promo',
       subtitle: 'Agency Marketing Graphic',
       type: 'image',
@@ -203,7 +203,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
 
   const smmCampaigns: LightboxItem[] = [
     {
-      src: '/rethink/SMM-04-10.jpg',
+      src: '/rethink/SMM-04-10.webp',
       title: 'Rethink Social Series 01',
       subtitle: 'SMM Campaign Graphic',
       type: 'image',
@@ -211,7 +211,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Curated social media content spotlighting UI design trends, color theory, and digital craftsmanship.',
     },
     {
-      src: '/rethink/SMM-04-10-1.jpg',
+      src: '/rethink/SMM-04-10-1.webp',
       title: 'Rethink Social Series 02',
       subtitle: 'SMM Campaign Graphic',
       type: 'image',
@@ -219,7 +219,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'High-engagement social story layout featuring client testimonials and design process insights.',
     },
     {
-      src: '/rethink/SMM-04-10-2.jpg',
+      src: '/rethink/SMM-04-10-2.webp',
       title: 'Rethink Social Series 03',
       subtitle: 'SMM Campaign Graphic',
       type: 'image',
@@ -227,7 +227,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Creative design tips post focusing on responsive layout strategies and typography rules.',
     },
     {
-      src: '/rethink/SMM-1-W3.jpg',
+      src: '/rethink/SMM-1-W3.webp',
       title: 'Rethink Weekly Spotlight',
       subtitle: 'SMM Editorial Post',
       type: 'image',
@@ -235,7 +235,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Weekly design breakdown highlighting before-and-after UI transformations.',
     },
     {
-      src: '/rethink/SMM-27-09.jpg',
+      src: '/rethink/SMM-27-09.webp',
       title: 'Special Event & Workshop Post',
       subtitle: 'SMM Campaign Graphic',
       type: 'image',
@@ -243,7 +243,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
       description: 'Promotional social post announcing UX strategy masterclasses and design sprint workshops.',
     },
     {
-      src: '/rethink/SMM-W4-P3.jpg',
+      src: '/rethink/SMM-W4-P3.webp',
       title: 'Design System Inspiration',
       subtitle: 'SMM Campaign Graphic',
       type: 'image',
@@ -447,7 +447,7 @@ export function RethinkCaseStudy({ isOpen, onClose }: RethinkCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/rethink/mockup main.jpg"
+              src="/rethink/mockup main.webp"
               alt="Rethink Studio Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

@@ -17,7 +17,7 @@ interface LightboxItem {
 
 const replacementServices: LightboxItem[] = [
   {
-    src: '/roofing/roof-08-12-1.jpg',
+    src: '/roofing/roof-08-12-1.webp',
     title: 'Architectural Shingle Replacement',
     subtitle: 'Premium Asphalt Shingle Installation',
     type: 'image',
@@ -25,7 +25,7 @@ const replacementServices: LightboxItem[] = [
     description: 'Complete tear-off and replacement utilizing GAF Timberline HDZ shingles with 130mph wind resistance warranty.',
   },
   {
-    src: '/roofing/roof-08-12-2.jpg',
+    src: '/roofing/roof-08-12-2.webp',
     title: 'Ridge Cap & Ventilation System',
     subtitle: 'Attic Airflow Optimization',
     type: 'image',
@@ -33,7 +33,7 @@ const replacementServices: LightboxItem[] = [
     description: 'Continuous ridge vent installation ensuring maximum attic ventilation, preventing moisture buildup and ice dams.',
   },
   {
-    src: '/roofing/roof-08-12.jpg',
+    src: '/roofing/roof-08-12.webp',
     title: 'Plywood Sheathing & Deck Repair',
     subtitle: 'Sub-Roof Structural Integrity',
     type: 'image',
@@ -41,7 +41,7 @@ const replacementServices: LightboxItem[] = [
     description: 'Replacement of damaged roof decking with CDX exterior plywood prior to synthetic underlayment application.',
   },
   {
-    src: '/roofing/roof-1-11-1.jpg',
+    src: '/roofing/roof-1-11-1.webp',
     title: 'Ice & Water Leak Shield',
     subtitle: 'Eave & Valley Waterproofing',
     type: 'image',
@@ -49,7 +49,7 @@ const replacementServices: LightboxItem[] = [
     description: 'Self-adhering rubberized asphalt membrane application along eaves, valleys, and chimneys for leak prevention.',
   },
   {
-    src: '/roofing/roof-1-11-2.jpg',
+    src: '/roofing/roof-1-11-2.webp',
     title: 'Commercial Flat Roofing System',
     subtitle: 'TPO & EPDM Rubber Membrane',
     type: 'image',
@@ -57,7 +57,7 @@ const replacementServices: LightboxItem[] = [
     description: 'Energy-efficient white TPO single-ply roofing for commercial buildings with heat-welded seams.',
   },
   {
-    src: '/roofing/roof-1-11.jpg',
+    src: '/roofing/roof-1-11.webp',
     title: 'Emergency Storm Damage Repair',
     subtitle: 'Insurance Claim & Tarping Service',
     type: 'image',
@@ -68,7 +68,7 @@ const replacementServices: LightboxItem[] = [
 
 const exteriorServices: LightboxItem[] = [
   {
-    src: '/roofing/roof-14-11-1.jpg',
+    src: '/roofing/roof-14-11-1.webp',
     title: 'Seamless Aluminum Gutter Installation',
     subtitle: 'Custom K-Style Water Drainage',
     type: 'image',
@@ -76,7 +76,7 @@ const exteriorServices: LightboxItem[] = [
     description: 'On-site extruded 5-inch and 6-inch seamless aluminum gutters equipped with heavy-duty hidden hangers.',
   },
   {
-    src: '/roofing/roof-14-11-2.jpg',
+    src: '/roofing/roof-14-11-2.webp',
     title: 'Metal Flashing & Chimney Cricket',
     subtitle: 'Precision Copper & Aluminum Trim',
     type: 'image',
@@ -84,7 +84,7 @@ const exteriorServices: LightboxItem[] = [
     description: 'Custom-bent step flashing and counter flashing engineered to channel rainwater around roof penetrations.',
   },
   {
-    src: '/roofing/roof-14-11.png',
+    src: '/roofing/roof-14-11.webp',
     title: 'Skylight Replacement & Leak Seal',
     subtitle: 'Energy Efficient Skylight Installation',
     type: 'image',
@@ -92,7 +92,7 @@ const exteriorServices: LightboxItem[] = [
     description: 'Velux solar-powered fresh-air skylight installation featuring laminated glass and leak-free flashing kits.',
   },
   {
-    src: '/roofing/roof-17-11-1.jpg',
+    src: '/roofing/roof-17-11-1.webp',
     title: 'Cedar Shake & Slate Restoration',
     subtitle: 'Historical Roofing Crafts',
     type: 'image',
@@ -100,7 +100,7 @@ const exteriorServices: LightboxItem[] = [
     description: 'Specialized natural cedar shake and Vermont slate tile replacement for historical Bucks County properties.',
   },
   {
-    src: '/roofing/roof-17-11.jpg',
+    src: '/roofing/roof-17-11.webp',
     title: 'Siding & Exterior Trim Upgrade',
     subtitle: 'Vinyl Siding & Fascia Wrap',
     type: 'image',
@@ -108,7 +108,7 @@ const exteriorServices: LightboxItem[] = [
     description: 'Insulated vinyl siding installation with aluminum coil wrapped soffit and fascia for maintenance-free exteriors.',
   },
   {
-    src: '/roofing/roof-20-10-2.jpg',
+    src: '/roofing/roof-20-10-2.webp',
     title: 'High-Wind LayerLock Technology',
     subtitle: 'Advanced Shingle Adhesion',
     type: 'image',
@@ -119,7 +119,7 @@ const exteriorServices: LightboxItem[] = [
 
 const marketingCampaigns: LightboxItem[] = [
   {
-    src: '/roofing/post1.jpg',
+    src: '/roofing/post1.webp',
     title: 'Bucks County Free Inspection Campaign',
     subtitle: 'Local Homeowner Outreach',
     type: 'image',
@@ -127,7 +127,7 @@ const marketingCampaigns: LightboxItem[] = [
     description: 'Targeted digital marketing creative offering 21-point comprehensive roof inspections for Bucks County residents.',
   },
   {
-    src: '/roofing/post2.jpg',
+    src: '/roofing/post2.webp',
     title: 'GAF Master Elite Certified Banner',
     subtitle: 'Trust & Warranty Campaign',
     type: 'image',
@@ -135,7 +135,7 @@ const marketingCampaigns: LightboxItem[] = [
     description: 'Promotional ad highlighting factory-certified contractor status and 50-year non-prorated system warranties.',
   },
   {
-    src: '/roofing/roof-20-11.png',
+    src: '/roofing/roof-20-11.webp',
     title: '24/7 Emergency Roof Response',
     subtitle: 'Storm Damage Priority Ad',
     type: 'image',
@@ -143,7 +143,7 @@ const marketingCampaigns: LightboxItem[] = [
     description: 'High-visibility social ad informing homeowners of immediate tarping and emergency repair availability.',
   },
   {
-    src: '/roofing/roof-26-12-1.jpg',
+    src: '/roofing/roof-26-12-1.webp',
     title: 'Seasonal Winterizing Special',
     subtitle: 'Ice Dam Protection Offer',
     type: 'image',
@@ -151,7 +151,7 @@ const marketingCampaigns: LightboxItem[] = [
     description: 'Winter prep promotional post covering gutter guard installation and thermal attic insulation checks.',
   },
   {
-    src: '/roofing/roof-26-12-2.jpg',
+    src: '/roofing/roof-26-12-2.webp',
     title: 'No Interest Financing Promotion',
     subtitle: 'Flexible Home Improvement Plans',
     type: 'image',
@@ -159,7 +159,7 @@ const marketingCampaigns: LightboxItem[] = [
     description: 'E-commerce and social graphic promoting 12-month zero interest roof replacement financing options.',
   },
   {
-    src: '/roofing/roof-26-12.jpg',
+    src: '/roofing/roof-26-12.webp',
     title: 'Bucks County Roofing Quality Guarantee',
     subtitle: 'Client Satisfaction Campaign',
     type: 'image',
@@ -406,7 +406,7 @@ export function RoofingCaseStudy({ isOpen, onClose }: RoofingCaseStudyProps) {
             <video
               className="w-full h-full object-cover"
               src="/roofing/hero video.mp4"
-              poster="/roofing/hero image.png?v=2"
+              poster="/roofing/hero image.webp?v=2"
               controls
               autoPlay
               muted

@@ -334,7 +334,7 @@ export function LuisCaseStudy({ isOpen, onClose }: LuisCaseStudyProps) {
             <video
               className="w-full h-full object-cover"
               src="/luis/hero video.mp4"
-              poster="/luis/hero image.png"
+              poster="/luis/hero image.webp"
               controls
               autoPlay
               muted

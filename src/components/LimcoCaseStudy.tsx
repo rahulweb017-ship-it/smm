@@ -19,7 +19,7 @@ interface LightboxItem {
 const airFreightAds: LightboxItem[] = [
   {
     src: '/limco/Ad final car by air Europe.mp4',
-    poster: '/limco/Car by air Europe.jpg',
+    poster: '/limco/Car by air Europe.webp',
     title: 'Vehicle Air Shipping Europe',
     subtitle: 'Luxury Auto Air Cargo Ad',
     type: 'video',
@@ -28,7 +28,7 @@ const airFreightAds: LightboxItem[] = [
   },
   {
     src: '/limco/Car by air for md .mp4',
-    poster: '/limco/Car by air md.jpg',
+    poster: '/limco/Car by air md.webp',
     title: 'Executive Auto Air Transport',
     subtitle: 'High-Value Freight Motion Reel',
     type: 'video',
@@ -37,7 +37,7 @@ const airFreightAds: LightboxItem[] = [
   },
   {
     src: '/limco/Cargo by air Ad -1 .mp4',
-    poster: '/limco/cargo by air ad -1.jpg',
+    poster: '/limco/cargo by air ad -1.webp',
     title: 'Cargo By Air Campaign',
     subtitle: 'Global Express Air Freight',
     type: 'video',
@@ -46,7 +46,7 @@ const airFreightAds: LightboxItem[] = [
   },
   {
     src: '/limco/CBA ad final .mp4',
-    poster: '/limco/cargo by air ad -2.jpg',
+    poster: '/limco/cargo by air ad -2.webp',
     title: 'CBA Freight Logistics Master',
     subtitle: 'International Freight Commercial',
     type: 'video',
@@ -57,7 +57,7 @@ const airFreightAds: LightboxItem[] = [
 
 const regionalRoutes: LightboxItem[] = [
   {
-    src: '/limco/Caribbean ad.jpg',
+    src: '/limco/Caribbean ad.webp',
     title: 'Caribbean Logistics & Maritime Trade',
     subtitle: 'Regional Trade Route Graphic',
     type: 'image',
@@ -65,7 +65,7 @@ const regionalRoutes: LightboxItem[] = [
     description: 'Dedicated Caribbean island shipping routes, port operations, and ocean container freight promotional artwork.',
   },
   {
-    src: '/limco/Europe Ad.jpg',
+    src: '/limco/Europe Ad.webp',
     title: 'European Cargo Corridor Network',
     subtitle: 'Transatlantic Freight Ad',
     type: 'image',
@@ -73,7 +73,7 @@ const regionalRoutes: LightboxItem[] = [
     description: 'European overland and air freight connectivity promo highlighting key distribution hubs in Frankfurt, London, and Paris.',
   },
   {
-    src: '/limco/Middle east ad.jpg',
+    src: '/limco/Middle east ad.webp',
     title: 'Middle East Air & Ocean Transit',
     subtitle: 'GCC Trade Route Campaign',
     type: 'image',
@@ -81,7 +81,7 @@ const regionalRoutes: LightboxItem[] = [
     description: 'Strategic Middle East logistics network connecting Dubai, Abu Dhabi, and Riyadh with global trade partners.',
   },
   {
-    src: '/limco/cargo by air ad -3.jpg',
+    src: '/limco/cargo by air ad -3.webp',
     title: 'Global Cargo Fleet Network',
     subtitle: 'Air Express Display Graphic',
     type: 'image',
@@ -108,7 +108,7 @@ const socialAndReels: LightboxItem[] = [
     description: 'Fast-paced Instagram & LinkedIn reel capturing warehouse distribution, pallet loading, and real-time tracking.',
   },
   {
-    src: '/limco/Post-1.jpg',
+    src: '/limco/Post-1.webp',
     title: 'Logistics Innovation Social Post 01',
     subtitle: 'Supply Chain Graphic',
     type: 'image',
@@ -116,7 +116,7 @@ const socialAndReels: LightboxItem[] = [
     description: 'Modern social media campaign graphic highlighting digital freight tracking and transparent supply chain management.',
   },
   {
-    src: '/limco/post-2.jpg',
+    src: '/limco/post-2.webp',
     title: 'Global Trade Campaign Post 02',
     subtitle: 'Worldwide Freight Promo',
     type: 'image',
@@ -124,7 +124,7 @@ const socialAndReels: LightboxItem[] = [
     description: 'High-converting social banner showcasing multimodal air, ocean, and road freight solutions.',
   },
   {
-    src: '/limco/Post-3.jpg',
+    src: '/limco/Post-3.webp',
     title: 'Priority Air Cargo Post 03',
     subtitle: 'Time-Sensitive Freight',
     type: 'image',
@@ -132,7 +132,7 @@ const socialAndReels: LightboxItem[] = [
     description: 'Promotional ad post focusing on emergency medical, aerospace, and high-value cargo transport.',
   },
   {
-    src: '/limco/post-4.jpg',
+    src: '/limco/post-4.webp',
     title: 'Customs & Compliance Post 04',
     subtitle: 'Trade Solutions Graphic',
     type: 'image',
@@ -380,7 +380,7 @@ export function LimcoCaseStudy({ isOpen, onClose }: LimcoCaseStudyProps) {
             <video
               className="w-full h-full object-cover"
               src="/limco/hero video.mp4"
-              poster="/limco/hero image.jpg?v=2"
+              poster="/limco/hero image.webp?v=2"
               controls
               autoPlay
               muted

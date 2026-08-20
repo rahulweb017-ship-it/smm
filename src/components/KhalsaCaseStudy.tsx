@@ -74,7 +74,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
 
   const serviceShowcase: LightboxItem[] = [
     {
-      src: '/khalsa/khalsa p2.jpg',
+      src: '/khalsa/khalsa p2.webp',
       title: 'Global Visa & Express Entry Overview',
       subtitle: 'Immigration Services Suite',
       type: 'image',
@@ -82,7 +82,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Comprehensive consultancy roadmap for permanent residency, work permits, and student visa pathways.',
     },
     {
-      src: '/khalsa/khalsa p3.jpg',
+      src: '/khalsa/khalsa p3.webp',
       title: 'Study Permit & Campus Placement',
       subtitle: 'Education & Student Visas',
       type: 'image',
@@ -90,7 +90,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Structured university placement strategy, SOP assistance, and study permit documentation system.',
     },
     {
-      src: '/khalsa/khalsa P5.jpg',
+      src: '/khalsa/khalsa P5.webp',
       title: 'Business & Investor Visa Programs',
       subtitle: 'Corporate Immigration Strategy',
       type: 'image',
@@ -98,7 +98,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Bespoke investor visa, startup visa, and business expansion immigration consultation.',
     },
     {
-      src: '/khalsa/khalsa P6.jpg',
+      src: '/khalsa/khalsa P6.webp',
       title: 'Family Sponsorship & Super Visas',
       subtitle: 'Family Reunification',
       type: 'image',
@@ -106,7 +106,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Streamlined parental super visa and spouse sponsorship documentation guidelines.',
     },
     {
-      src: '/khalsa/khalsa P7.jpg',
+      src: '/khalsa/khalsa P7.webp',
       title: 'PNP & Provincial Nomination Guide',
       subtitle: 'Regional Immigration Pathways',
       type: 'image',
@@ -117,7 +117,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
 
   const campaignPosts: LightboxItem[] = [
     {
-      src: '/khalsa/post-1.jpg',
+      src: '/khalsa/post-1.webp',
       title: 'Express Entry Draw Update',
       subtitle: 'Social Media Campaign',
       type: 'image',
@@ -125,7 +125,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Latest CRS score trends and targeted category draws for skilled professionals.',
     },
     {
-      src: '/khalsa/post-2.jpg',
+      src: '/khalsa/post-2.webp',
       title: 'Student Visa Success Spotlight',
       subtitle: 'Client Approval Story',
       type: 'image',
@@ -133,7 +133,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'High-conversion approval post celebrating international student visa success stories.',
     },
     {
-      src: '/khalsa/post-4.jpg',
+      src: '/khalsa/post-4.webp',
       title: 'Work Permit Extension Rules',
       subtitle: 'Regulatory Advisory Graphic',
       type: 'image',
@@ -141,7 +141,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Important updates regarding open work permits, LMIA exemptions, and post-graduate work permits (PGWP).',
     },
     {
-      src: '/khalsa/post-5.jpg',
+      src: '/khalsa/post-5.webp',
       title: 'PR Pathway for Healthcare Workers',
       subtitle: 'Targeted Stream Campaign',
       type: 'image',
@@ -149,7 +149,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Dedicated campaign highlighting priority PR pathways for nurses, doctors, and care providers.',
     },
     {
-      src: '/khalsa/post-6.jpg',
+      src: '/khalsa/post-6.webp',
       title: 'Tech Talent Visa Fast-Track',
       subtitle: 'Innovation & Tech Stream',
       type: 'image',
@@ -157,7 +157,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Specialized visa guidance for software engineers, data analysts, and IT professionals.',
     },
     {
-      src: '/khalsa/post-8.jpg',
+      src: '/khalsa/post-8.webp',
       title: 'Visitor to Work Permit Conversion',
       subtitle: 'Policy Update Post',
       type: 'image',
@@ -165,7 +165,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Step-by-step breakdown of temporary policy extensions for visitor visa holders.',
     },
     {
-      src: '/khalsa/post-9.jpg',
+      src: '/khalsa/post-9.webp',
       title: 'IELTS & Language Proficiency Tips',
       subtitle: 'Educational Campaign',
       type: 'image',
@@ -173,7 +173,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Language benchmark requirements (CLB 7/8/9) for max Express Entry points.',
     },
     {
-      src: '/khalsa/post-10.jpg',
+      src: '/khalsa/post-10.webp',
       title: 'Seasonal Agri-Worker Placement',
       subtitle: 'Skilled Trades Campaign',
       type: 'image',
@@ -181,7 +181,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Agricultural and trade sector employment visa guidance.',
     },
     {
-      src: '/khalsa/post-11.jpg',
+      src: '/khalsa/post-11.webp',
       title: 'Spousal Open Work Permit Guide',
       subtitle: 'Family Sponsorship Feature',
       type: 'image',
@@ -189,7 +189,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Work authorization options for spouses of international students and skilled workers.',
     },
     {
-      src: '/khalsa/post-12.jpg',
+      src: '/khalsa/post-12.webp',
       title: 'Citizenship Eligibility Checklist',
       subtitle: 'Final Pathway Advisory',
       type: 'image',
@@ -197,7 +197,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
       description: 'Physical presence requirements, tax compliance, and citizenship test preparation.',
     },
     {
-      src: '/khalsa/post-14.jpg',
+      src: '/khalsa/post-14.webp',
       title: 'Khalsa Immigration Consultation Drive',
       subtitle: 'Brand Promotional Campaign',
       type: 'image',
@@ -398,7 +398,7 @@ export function KhalsaCaseStudy({ isOpen, onClose }: KhalsaCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/khalsa/hero image.jpg"
+              src="/khalsa/hero image.webp"
               alt="Khalsa Immigration Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

@@ -17,7 +17,7 @@ interface LightboxItem {
 
 const audioProducts: LightboxItem[] = [
   {
-    src: '/replug/Airpod-M3.jpg',
+    src: '/replug/Airpod-M3.webp',
     title: 'Replug Airpod M3 Studio TWS',
     subtitle: 'True Wireless Active Noise Cancellation',
     type: 'image',
@@ -25,7 +25,7 @@ const audioProducts: LightboxItem[] = [
     description: 'Ergonomic in-ear TWS earbuds featuring low-latency gaming mode, touch controls, and 36-hour battery life.',
   },
   {
-    src: '/replug/Airpod-M6 pro.jpg',
+    src: '/replug/Airpod-M6 pro.webp',
     title: 'Replug Airpod M6 Pro',
     subtitle: 'Flagship Spatial Audio Earbuds',
     type: 'image',
@@ -33,7 +33,7 @@ const audioProducts: LightboxItem[] = [
     description: 'Pro-grade spatial audio wireless earbuds with quad-mic environmental noise cancellation and wireless charging case.',
   },
   {
-    src: '/replug/Airpod-T1-1.jpg',
+    src: '/replug/Airpod-T1-1.webp',
     title: 'Replug Airpod T1 Wireless',
     subtitle: 'Ultra-Light Everyday Earbuds',
     type: 'image',
@@ -41,7 +41,7 @@ const audioProducts: LightboxItem[] = [
     description: 'Sleek matte finish TWS earbuds engineered with 13mm dynamic bass drivers and IPX5 sweat resistance.',
   },
   {
-    src: '/replug/Neckband-R2.jpg',
+    src: '/replug/Neckband-R2.webp',
     title: 'Replug Neckband R2 Sport',
     subtitle: 'Magnetic Neckband Audio',
     type: 'image',
@@ -49,7 +49,7 @@ const audioProducts: LightboxItem[] = [
     description: 'Flexible silicone sport neckband with fast charging, magnetic earbuds, and deep bass acoustics.',
   },
   {
-    src: '/replug/enc with dual mic.jpg',
+    src: '/replug/enc with dual mic.webp',
     title: 'Replug ENC Dual Mic Earbuds',
     subtitle: 'Crystal Clear Voice Calls',
     type: 'image',
@@ -57,7 +57,7 @@ const audioProducts: LightboxItem[] = [
     description: 'Dual microphone environmental noise cancelling earbuds tailored for remote work calls and clear audio.',
   },
   {
-    src: '/replug/headphone.jpg',
+    src: '/replug/headphone.webp',
     title: 'Replug Studio Over-Ear Headphones',
     subtitle: 'High-Fidelity Wireless Headphones',
     type: 'image',
@@ -68,7 +68,7 @@ const audioProducts: LightboxItem[] = [
 
 const powerProducts: LightboxItem[] = [
   {
-    src: '/replug/C-USB-charger.jpg',
+    src: '/replug/C-USB-charger.webp',
     title: 'Replug Dual Port Power Adapter',
     subtitle: '33W GaN Fast Charger',
     type: 'image',
@@ -76,7 +76,7 @@ const powerProducts: LightboxItem[] = [
     description: 'Compact USB-C and USB-A dual port wall charger with smart power distribution and surge protection.',
   },
   {
-    src: '/replug/car charger.jpg',
+    src: '/replug/car charger.webp',
     title: 'Replug Metal Car Charger',
     subtitle: 'Dual Turbo Vehicle Power',
     type: 'image',
@@ -84,7 +84,7 @@ const powerProducts: LightboxItem[] = [
     description: 'Heavy-duty aluminum alloy vehicle charger supporting Quick Charge 3.0 and PD fast charging.',
   },
   {
-    src: '/replug/c to lightning.jpg',
+    src: '/replug/c to lightning.webp',
     title: 'Replug Type-C to Lightning Cable',
     subtitle: 'Braided Fast Charging Cable',
     type: 'image',
@@ -92,7 +92,7 @@ const powerProducts: LightboxItem[] = [
     description: 'Kevlar-reinforced nylon braided cable supporting 20W Power Delivery and high-speed data sync.',
   },
   {
-    src: '/replug/flash charge.jpg',
+    src: '/replug/flash charge.webp',
     title: 'Replug Flash Charge Series',
     subtitle: 'High-Density Power Cable',
     type: 'image',
@@ -100,7 +100,7 @@ const powerProducts: LightboxItem[] = [
     description: 'Extra durable fast charge cable with reinforced stress points and gold-plated connectors.',
   },
   {
-    src: '/replug/Aux cable.jpg',
+    src: '/replug/Aux cable.webp',
     title: 'Replug Braided Aux Cable',
     subtitle: '3.5mm Gold-Plated Audio Cord',
     type: 'image',
@@ -111,7 +111,7 @@ const powerProducts: LightboxItem[] = [
 
 const creativeCampaigns: LightboxItem[] = [
   {
-    src: '/replug/web graphic.jpg',
+    src: '/replug/web graphic.webp',
     title: 'Replug Digital E-Commerce Storefront',
     subtitle: 'Web Graphic & Layout Design',
     type: 'image',
@@ -119,7 +119,7 @@ const creativeCampaigns: LightboxItem[] = [
     description: 'Sleek, modern e-commerce storefront web graphics highlighting product features and brand aesthetics.',
   },
   {
-    src: '/replug/coming four .jpg',
+    src: '/replug/coming four .webp',
     title: 'Next-Gen Product Launch Banner',
     subtitle: 'Teaser Campaign Poster',
     type: 'image',
@@ -127,7 +127,7 @@ const creativeCampaigns: LightboxItem[] = [
     description: 'High-contrast teaser promotional graphic introducing upcoming smart audio and charging series.',
   },
   {
-    src: '/replug/giveway.jpg',
+    src: '/replug/giveway.webp',
     title: 'Replug Community Giveaway Campaign',
     subtitle: 'Social Media Engagement Post',
     type: 'image',
@@ -135,7 +135,7 @@ const creativeCampaigns: LightboxItem[] = [
     description: 'Vibrant social media giveaway post engineered to drive follower growth and audience engagement.',
   },
   {
-    src: '/replug/new arrivall.jpg',
+    src: '/replug/new arrivall.webp',
     title: 'Replug New Arrival Showcase',
     subtitle: 'E-Commerce Product Poster',
     type: 'image',
@@ -143,7 +143,7 @@ const creativeCampaigns: LightboxItem[] = [
     description: 'Product launch promotional creative highlighting premium packaging, build quality, and acoustic specs.',
   },
   {
-    src: '/replug/earphone.jpg',
+    src: '/replug/earphone.webp',
     title: 'Replug Classic Wired Earphones',
     subtitle: 'Metallic HD Audio Series',
     type: 'image',
@@ -390,7 +390,7 @@ export function ReplugCaseStudy({ isOpen, onClose }: ReplugCaseStudyProps) {
             <video
               className="w-full h-full object-cover"
               src="/replug/hero image.mp4"
-              poster="/replug/hero image.jpg"
+              poster="/replug/hero image.webp"
               controls
               autoPlay
               muted

@@ -74,7 +74,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
 
   const productFormulations: LightboxItem[] = [
     {
-      src: '/fibax/fp enzyme.jpg',
+      src: '/fibax/fp enzyme.webp',
       title: 'FP Enzyme Digestive Tonic',
       subtitle: 'Ayurvedic Digestive Care',
       type: 'image',
@@ -82,7 +82,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Natural herbal enzyme formulation for digestive wellness, appetite stimulation, and gut health.',
     },
     {
-      src: '/fibax/fp enzyme-1.jpg',
+      src: '/fibax/fp enzyme-1.webp',
       title: 'FP Enzyme Bottle Presentation',
       subtitle: 'Syrup Packaging Design',
       type: 'image',
@@ -90,7 +90,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Custom amber glass bottle with UV-sealed protective label and measuring cap design.',
     },
     {
-      src: '/fibax/fp enzyme-2.jpg',
+      src: '/fibax/fp enzyme-2.webp',
       title: 'FP Enzyme Box & Label Collateral',
       subtitle: 'Outer Carton Architecture',
       type: 'image',
@@ -98,7 +98,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'High-contrast typography carton layout with clear botanical ingredients and dosage guidelines.',
     },
     {
-      src: '/fibax/axe ortho pain syrup copy.jpg',
+      src: '/fibax/axe ortho pain syrup copy.webp',
       title: 'Axe Ortho Pain Relief Syrup',
       subtitle: 'Joint & Muscle Care',
       type: 'image',
@@ -106,7 +106,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Potent herbal anti-inflammatory syrup designed for joint mobility and muscular comfort.',
     },
     {
-      src: '/fibax/fib-ortho.jpg',
+      src: '/fibax/fib-ortho.webp',
       title: 'Fib-Ortho Active Care',
       subtitle: 'Therapeutic Herb Formulation',
       type: 'image',
@@ -114,7 +114,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Concentrated herbal extract bottle focusing on cartilage health and active lifestyle support.',
     },
     {
-      src: '/fibax/Cough Syurp.jpg',
+      src: '/fibax/Cough Syurp.webp',
       title: 'Herbal Cough & Bronchial Relief',
       subtitle: 'Respiratory Wellness Syrup',
       type: 'image',
@@ -122,7 +122,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Tulsi and Adulsa enriched throat soothing syrup with natural honey base.',
     },
     {
-      src: '/fibax/botal triphla.jpg',
+      src: '/fibax/botal triphla.webp',
       title: 'Triphala Natural Detoxifier',
       subtitle: 'Traditional Herbal Extract',
       type: 'image',
@@ -130,7 +130,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Pure Amla, Haritaki, and Bibhitaki extract blend for cellular rejuvenation and gut cleansing.',
     },
     {
-      src: '/fibax/fibocid.jpg',
+      src: '/fibax/fibocid.webp',
       title: 'Fibocid Rapid Antacid Liquid',
       subtitle: 'Hyperacidity & Reflux Relief',
       type: 'image',
@@ -138,7 +138,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Mint-flavored cooling antacid suspension for immediate gastric comfort.',
     },
     {
-      src: '/fibax/immunity booster.jpg',
+      src: '/fibax/immunity booster.webp',
       title: 'Immunity Shield Health Tonic',
       subtitle: 'Vitality & Protection Formula',
       type: 'image',
@@ -146,7 +146,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Giloy, Ashwagandha, and Vitamin C fortified syrup for daily immune system defense.',
     },
     {
-      src: '/fibax/multi-vitamin-.jpg',
+      src: '/fibax/multi-vitamin-.webp',
       title: 'Multi-Vitamin Energy Elixir',
       subtitle: 'Daily Nutritional Supplement',
       type: 'image',
@@ -154,7 +154,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Essential micronutrients and trace minerals blend to combat fatigue and boost daily stamina.',
     },
     {
-      src: '/fibax/winter care-1.jpg',
+      src: '/fibax/winter care-1.webp',
       title: 'Winter Wellness Seasonal Shield',
       subtitle: 'Cold & Flu Protection',
       type: 'image',
@@ -165,7 +165,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
 
   const artboardsAndPackaging: LightboxItem[] = [
     {
-      src: '/fibax/Artboard 1.png',
+      src: '/fibax/Artboard 1.webp',
       title: 'Fibax Pharma Brand Identity Artboard 01',
       subtitle: 'Logo & Color Token System',
       type: 'image',
@@ -173,7 +173,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Corporate pharmaceutical identity guidelines, teal and emerald brand colors, and typography standards.',
     },
     {
-      src: '/fibax/Artboard 4.png',
+      src: '/fibax/Artboard 4.webp',
       title: 'Packaging Carton Die-Line Artboard 04',
       subtitle: 'Print Production Specs',
       type: 'image',
@@ -181,7 +181,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Precise packaging die-cuts, foil stamping callouts, and pharma regulatory compliance markings.',
     },
     {
-      src: '/fibax/Artboard 5.png',
+      src: '/fibax/Artboard 5.webp',
       title: 'Product Family Lineup Artboard 05',
       subtitle: 'Carton Architecture',
       type: 'image',
@@ -189,7 +189,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Unified visual hierarchy across liquid tonics, syrups, and wellness capsule outer boxes.',
     },
     {
-      src: '/fibax/Artboard 6.png',
+      src: '/fibax/Artboard 6.webp',
       title: 'Label Design Typography Artboard 06',
       subtitle: 'Front & Back Label Layout',
       type: 'image',
@@ -197,7 +197,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Micro-typography alignment for active ingredient tables, manufacturing licenses, and barcodes.',
     },
     {
-      src: '/fibax/Artboard 7.png',
+      src: '/fibax/Artboard 7.webp',
       title: 'Ayurvedic Product Series Artboard 07',
       subtitle: 'Herbal Line Identity',
       type: 'image',
@@ -205,7 +205,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Earth-tone branding accents for traditional herbal remedies and botanical wellness lines.',
     },
     {
-      src: '/fibax/Artboard 8.png',
+      src: '/fibax/Artboard 8.webp',
       title: 'Retail Display Box Artboard 08',
       subtitle: 'Countertop POP Display',
       type: 'image',
@@ -213,7 +213,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Point-of-sale display carton design for pharmacy counter visibility and impulse purchase engagement.',
     },
     {
-      src: '/fibax/Artboard 9.png',
+      src: '/fibax/Artboard 9.webp',
       title: 'Medical Representative Detailer Artboard 09',
       subtitle: 'Doctor Presentation Deck',
       type: 'image',
@@ -221,7 +221,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Clinical trial highlights, mechanism of action graphics, and physician detailing collateral.',
     },
     {
-      src: '/fibax/Artboard 10.png',
+      src: '/fibax/Artboard 10.webp',
       title: 'Fibax Corporate Brochure Artboard 10',
       subtitle: 'Enterprise Marketing',
       type: 'image',
@@ -229,7 +229,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'GMP facility certification showcase, R&D capabilities, and global distribution network overview.',
     },
     {
-      src: '/fibax/Artboard 11.png',
+      src: '/fibax/Artboard 11.webp',
       title: 'Syrup Bottle Label System Artboard 11',
       subtitle: 'Waterproof Synthetic Label',
       type: 'image',
@@ -237,7 +237,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Moisture-resistant metallic foil label design for pharmaceutical glass and PET bottles.',
     },
     {
-      src: '/fibax/Artboard 12.png',
+      src: '/fibax/Artboard 12.webp',
       title: 'Wellness Supplements Artboard 12',
       subtitle: 'Nutraceutical Brand Extension',
       type: 'image',
@@ -245,7 +245,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Modern lifestyle wellness aesthetic tailored for young professionals and health-conscious consumers.',
     },
     {
-      src: '/fibax/Artboard 13.png',
+      src: '/fibax/Artboard 13.webp',
       title: 'Product Launch Campaign Artboard 13',
       subtitle: 'Marketing Visual Assets',
       type: 'image',
@@ -253,7 +253,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'High-impact product launch banners engineered for print trade publications and digital ads.',
     },
     {
-      src: '/fibax/Artboard 14.png',
+      src: '/fibax/Artboard 14.webp',
       title: 'Pharma Exhibition Booth Artboard 14',
       subtitle: 'Trade Show Architecture',
       type: 'image',
@@ -261,7 +261,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Large-format environmental graphics, backdrops, and product podium displays for pharma expos.',
     },
     {
-      src: '/fibax/Artboard 15.png',
+      src: '/fibax/Artboard 15.webp',
       title: 'Quality Assurance System Artboard 15',
       subtitle: 'ISO & WHO-GMP Standards',
       type: 'image',
@@ -269,7 +269,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Visual compliance infographics illustrating 100% batch testing and zero-contamination protocols.',
     },
     {
-      src: '/fibax/Artboard 16.png',
+      src: '/fibax/Artboard 16.webp',
       title: 'Doctor Prescribing Guide Artboard 16',
       subtitle: 'Clinical Dosage Matrix',
       type: 'image',
@@ -277,7 +277,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Quick-reference dosage charts and indication guides designed for general practitioners.',
     },
     {
-      src: '/fibax/Artboard 17.png',
+      src: '/fibax/Artboard 17.webp',
       title: 'Fibax Master Brand Guidelines Artboard 17',
       subtitle: 'Brand Governance Manual',
       type: 'image',
@@ -288,7 +288,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
 
   const campaignSliders: LightboxItem[] = [
     {
-      src: '/fibax/Fibax-slider-1.jpg',
+      src: '/fibax/Fibax-slider-1.webp',
       title: 'Fibax Natural Health Hero Banner 01',
       subtitle: 'Digital Website & Ad Slider',
       type: 'image',
@@ -296,7 +296,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
       description: 'Wide-format promotional hero slider showcasing the core Ayurvedic product lineup with botanical imagery.',
     },
     {
-      src: '/fibax/Fibax-slider-2.jpg',
+      src: '/fibax/Fibax-slider-2.webp',
       title: 'Fibax Herbal Wellness Hero Banner 02',
       subtitle: 'Digital Website & Ad Slider',
       type: 'image',
@@ -499,7 +499,7 @@ export function FibaxCaseStudy({ isOpen, onClose }: FibaxCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/fibax/hero image.jpg"
+              src="/fibax/hero image.webp"
               alt="Fibax Pharma Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

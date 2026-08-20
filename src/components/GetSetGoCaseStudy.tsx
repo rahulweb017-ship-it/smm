@@ -17,7 +17,7 @@ interface LightboxItem {
 
 const itSolutions: LightboxItem[] = [
   {
-    src: '/getsetgo/Designing Services.jpg',
+    src: '/getsetgo/Designing Services.webp',
     title: 'Custom UI/UX & Design Services',
     subtitle: 'Enterprise Design System',
     type: 'image',
@@ -25,7 +25,7 @@ const itSolutions: LightboxItem[] = [
     description: 'Comprehensive UI/UX design architecture, custom web interfaces, and enterprise brand design frameworks.',
   },
   {
-    src: '/getsetgo/mobile app.jpg',
+    src: '/getsetgo/mobile app.webp',
     title: 'Mobile App Development Solutions',
     subtitle: 'iOS & Android Engineering',
     type: 'image',
@@ -33,7 +33,7 @@ const itSolutions: LightboxItem[] = [
     description: 'Scalable cross-platform mobile application architecture built for high performance and seamless user experiences.',
   },
   {
-    src: '/getsetgo/SEO Servicces.jpg',
+    src: '/getsetgo/SEO Servicces.webp',
     title: 'SEO & Organic Growth Strategy',
     subtitle: 'Search Engine Optimization',
     type: 'image',
@@ -41,7 +41,7 @@ const itSolutions: LightboxItem[] = [
     description: 'Data-driven technical SEO audits, keyword positioning, content architecture, and organic traffic growth.',
   },
   {
-    src: '/getsetgo/services.jpg',
+    src: '/getsetgo/services.webp',
     title: '360° IT & Digital Solutions Suite',
     subtitle: 'Full-Service Technology Portfolio',
     type: 'image',
@@ -49,7 +49,7 @@ const itSolutions: LightboxItem[] = [
     description: 'End-to-end digital transformation consulting, cloud integrations, and custom enterprise software development.',
   },
   {
-    src: '/getsetgo/website banner.jpg',
+    src: '/getsetgo/website banner.webp',
     title: 'High-Converting Web Banners',
     subtitle: 'Digital Advertising Assets',
     type: 'image',
@@ -60,7 +60,7 @@ const itSolutions: LightboxItem[] = [
 
 const smmCampaigns: LightboxItem[] = [
   {
-    src: '/getsetgo/hero-smm-1.jpg',
+    src: '/getsetgo/hero-smm-1.webp',
     title: 'Social Media Marketing Master Suite',
     subtitle: 'Strategic Campaign Launch',
     type: 'image',
@@ -68,7 +68,7 @@ const smmCampaigns: LightboxItem[] = [
     description: 'Targeted social media marketing campaign creative designed to boost lead generation and brand recall.',
   },
   {
-    src: '/getsetgo/hero-smm-2.jpg',
+    src: '/getsetgo/hero-smm-2.webp',
     title: 'Digital Performance Ad Post',
     subtitle: 'Paid Media Marketing',
     type: 'image',
@@ -76,7 +76,7 @@ const smmCampaigns: LightboxItem[] = [
     description: 'High-impact ad creatives optimized for Instagram, LinkedIn, and Facebook sponsored growth campaigns.',
   },
   {
-    src: '/getsetgo/hero-smm-3.jpg',
+    src: '/getsetgo/hero-smm-3.webp',
     title: 'Tech Innovation Reel Graphic',
     subtitle: 'Brand Storytelling Post',
     type: 'image',
@@ -84,7 +84,7 @@ const smmCampaigns: LightboxItem[] = [
     description: 'Engaging visual graphics highlighting cutting-edge IT services and digital agency capabilities.',
   },
   {
-    src: '/getsetgo/SMM.jpg',
+    src: '/getsetgo/SMM.webp',
     title: 'SMM Brand Growth Strategy',
     subtitle: 'Social Content Architecture',
     type: 'image',
@@ -92,7 +92,7 @@ const smmCampaigns: LightboxItem[] = [
     description: 'Structured social media content calendar assets, promotional carousels, and audience interaction posts.',
   },
   {
-    src: '/getsetgo/smm-10-06.jpg',
+    src: '/getsetgo/smm-10-06.webp',
     title: 'Digital Marketing Campaign Post',
     subtitle: 'Audience Engagement Graphic',
     type: 'image',
@@ -100,7 +100,7 @@ const smmCampaigns: LightboxItem[] = [
     description: 'Creative promotional graphics engineered for viral reach, client conversion, and social engagement.',
   },
   {
-    src: '/getsetgo/smm-21-06.jpg',
+    src: '/getsetgo/smm-21-06.webp',
     title: 'Enterprise Tech Promotion',
     subtitle: 'B2B Marketing Campaign',
     type: 'image',
@@ -111,7 +111,7 @@ const smmCampaigns: LightboxItem[] = [
 
 const creativeShowcase: LightboxItem[] = [
   {
-    src: '/getsetgo/hero-img-1.jpg',
+    src: '/getsetgo/hero-img-1.webp',
     title: 'Creative Agency Brand Identity',
     subtitle: 'Visual Brand Guidelines',
     type: 'image',
@@ -119,7 +119,7 @@ const creativeShowcase: LightboxItem[] = [
     description: 'Modern, vibrant visual identity, custom color palettes, and corporate branding collateral.',
   },
   {
-    src: '/getsetgo/hero-img-2.jpg',
+    src: '/getsetgo/hero-img-2.webp',
     title: 'Digital Launch Promo Graphic',
     subtitle: 'Product Campaign Art',
     type: 'image',
@@ -127,7 +127,7 @@ const creativeShowcase: LightboxItem[] = [
     description: 'Sleek promotional launch graphics engineered for tech startups and digital transformation agencies.',
   },
   {
-    src: '/getsetgo/hero-img-4.jpg',
+    src: '/getsetgo/hero-img-4.webp',
     title: 'Tech Solutions Presentation Art',
     subtitle: 'Marketing Display Banner',
     type: 'image',
@@ -135,7 +135,7 @@ const creativeShowcase: LightboxItem[] = [
     description: 'Premium marketing banner and presentation slide art crafted for enterprise IT solution pitches.',
   },
   {
-    src: '/getsetgo/Smm-05-06.jpg',
+    src: '/getsetgo/Smm-05-06.webp',
     title: 'Audience Retention Creative',
     subtitle: 'Social Campaign Art',
     type: 'image',
@@ -143,7 +143,7 @@ const creativeShowcase: LightboxItem[] = [
     description: 'Creative promotional artwork highlighting IT consulting benefits and software product features.',
   },
   {
-    src: '/getsetgo/smm-28-05-1.jpg',
+    src: '/getsetgo/smm-28-05-1.webp',
     title: 'Performance Marketing Poster',
     subtitle: 'Digital Agency Graphic',
     type: 'image',
@@ -390,7 +390,7 @@ export function GetSetGoCaseStudy({ isOpen, onClose }: GetSetGoCaseStudyProps) {
             <video
               className="w-full h-full object-cover"
               src="/getsetgo/hero video .mp4"
-              poster="/getsetgo/hero image .png"
+              poster="/getsetgo/hero image .webp"
               controls
               autoPlay
               muted

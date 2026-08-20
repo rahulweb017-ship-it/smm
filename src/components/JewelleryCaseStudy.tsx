@@ -96,7 +96,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/jewellery/Mockup.jpg"
+              src="/jewellery/Mockup.webp"
               alt="Jewelry design workstation"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />
@@ -170,7 +170,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
               {/* Card 1 */}
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <img
-                  src="/jewellery/Drop Ear.jpg"
+                  src="/jewellery/Drop Ear.webp"
                   alt="Drop earrings"
                   className="w-full aspect-[1/1] object-cover rounded-[15px]"
                 />
@@ -181,7 +181,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
               {/* Card 2 */}
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <img
-                  src="/jewellery/jw-st-5-12.jpg"
+                  src="/jewellery/jw-st-5-12.webp"
                   alt="Royal statement set"
                   className="w-full aspect-[1/1] object-cover rounded-[15px]"
                 />
@@ -192,7 +192,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
               {/* Card 3 */}
               <div className="bg-white p-4 rounded-[20px] border border-[#ebdcb9]/30 shadow-sm">
                 <img
-                  src="/jewellery/jw-st-07-12.jpg"
+                  src="/jewellery/jw-st-07-12.webp"
                   alt="Gold hoops"
                   className="w-full aspect-[1/1] object-cover rounded-[15px]"
                 />
@@ -220,7 +220,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
               <div className="bg-white rounded-[24px] md:rounded-[36px] overflow-hidden border border-[#ebdcb9]/30 p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="overflow-hidden rounded-[18px] md:rounded-[28px]">
                   <img
-                    src="/jewellery/moissanite-necklace.jpg"
+                    src="/jewellery/moissanite-necklace.webp"
                     alt="925 Sterling Silver Moissanite Stones Necklace Poster"
                     className="w-full h-auto block transition-transform duration-500 hover:scale-[1.01]"
                   />
@@ -238,7 +238,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
               <div className="bg-white rounded-[24px] md:rounded-[36px] overflow-hidden border border-[#ebdcb9]/30 p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="overflow-hidden rounded-[18px] md:rounded-[28px]">
                   <img
-                    src="/jewellery/moissanite-ring.jpg"
+                    src="/jewellery/moissanite-ring.webp"
                     alt="Silver White Moissanite Ring Poster"
                     className="w-full h-auto block transition-transform duration-500 hover:scale-[1.01]"
                   />
@@ -281,14 +281,14 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
             <div className="space-y-8">
               <div className="rounded-[20px] overflow-hidden border border-[#ebdcb9]/40">
                 <img
-                  src="/jewellery/925-silver-28-11.jpg"
+                  src="/jewellery/925-silver-28-11.webp"
                   alt="925 silver detailing"
                   className="w-full h-auto object-cover aspect-[4/5]"
                 />
               </div>
               <div className="rounded-[20px] overflow-hidden border border-[#ebdcb9]/40">
                 <img
-                  src="/jewellery/jw-7-12.jpg"
+                  src="/jewellery/jw-7-12.webp"
                   alt="Saltwater pearl bracelet"
                   className="w-full h-auto object-cover aspect-[4/3]"
                 />

@@ -74,7 +74,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
 
   const systemArchitecture: LightboxItem[] = [
     {
-      src: '/falco/Falco e-drive.jpg',
+      src: '/falco/Falco e-drive.webp',
       title: 'Falco E-Drive Powertrain Hub',
       subtitle: 'Integrated Motor & Inverter System',
       type: 'image',
@@ -82,7 +82,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Compact high-efficiency electric hub drive engineered for seamless integration across e-bikes, urban commuters, and light electric vehicles.',
     },
     {
-      src: '/falco/Falco e-drive-1.jpg',
+      src: '/falco/Falco e-drive-1.webp',
       title: 'Smart Power Management Architecture',
       subtitle: 'BMS & Telemetry Controller',
       type: 'image',
@@ -90,7 +90,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Advanced 48V/72V intelligent battery management system with real-time Bluetooth telemetry and regenerative braking optimization.',
     },
     {
-      src: '/falco/falco 12-05.jpg',
+      src: '/falco/falco 12-05.webp',
       title: 'Ergonomic Control Console & Display',
       subtitle: 'Digital Cockpit Interface',
       type: 'image',
@@ -101,7 +101,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
 
   const adCampaigns: LightboxItem[] = [
     {
-      src: '/falco/ad post -1.jpg',
+      src: '/falco/ad post -1.webp',
       title: 'Power Beyond Limits Campaign',
       subtitle: 'Global Ad Launch Graphic',
       type: 'image',
@@ -109,7 +109,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'High-contrast typography campaign highlighting zero-emission high-torque acceleration for modern riders.',
     },
     {
-      src: '/falco/ad post -2.jpg',
+      src: '/falco/ad post -2.webp',
       title: 'Electric Performance Redefined',
       subtitle: 'Editorial Print & Social Ad',
       type: 'image',
@@ -117,7 +117,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Minimalist industrial product feature showcasing precision-machined aluminum alloy casing and weather-sealed housing.',
     },
     {
-      src: '/falco/ad post -3.jpg',
+      src: '/falco/ad post -3.webp',
       title: 'Urban Commute Evolution',
       subtitle: 'Outdoor & Digital Banner',
       type: 'image',
@@ -125,7 +125,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Lifestyle campaign emphasizing whisper-quiet operation, instant torque delivery, and maintenance-free longevity.',
     },
     {
-      src: '/falco/add.jpg',
+      src: '/falco/add.webp',
       title: 'Falco Power Promo Card 01',
       subtitle: 'Special Launch Promotion',
       type: 'image',
@@ -133,7 +133,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Targeted performance banner spotlighting motor efficiency ratings and range extension technology.',
     },
     {
-      src: '/falco/adddd.jpg',
+      src: '/falco/adddd.webp',
       title: 'Falco Power Promo Card 02',
       subtitle: 'High-Torque Performance Edition',
       type: 'image',
@@ -144,7 +144,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
 
   const infographicsAndPosts: LightboxItem[] = [
     {
-      src: '/falco/falco new rule.jpg',
+      src: '/falco/falco new rule.webp',
       title: 'E-Mobility Standards & Brand Rules',
       subtitle: 'Technical Guidelines Infographic',
       type: 'image',
@@ -152,7 +152,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Comprehensive brand standards detailing safety certification protocols, green energy compliance, and modular drive specs.',
     },
     {
-      src: '/falco/falco-1-2.jpg',
+      src: '/falco/falco-1-2.webp',
       title: 'Modular Drive Compatibility Chart',
       subtitle: 'OEM Integration Infographic',
       type: 'image',
@@ -160,7 +160,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Detailed mechanical and electronic compatibility specs for bicycle frame manufacturers and fleet operators.',
     },
     {
-      src: '/falco/power-07-03.jpg',
+      src: '/falco/power-07-03.webp',
       title: 'Falco Power Feature Spotlight 01',
       subtitle: 'Social Campaign Infographic',
       type: 'image',
@@ -168,7 +168,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Key performance metrics breakdown: 850W peak output, 92% efficiency index, and IP67 water resistance.',
     },
     {
-      src: '/falco/power-08-03.jpg',
+      src: '/falco/power-08-03.webp',
       title: 'Falco Power Feature Spotlight 02',
       subtitle: 'Social Campaign Infographic',
       type: 'image',
@@ -176,7 +176,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Regenerative braking energy recovery diagram detailing up to 15% range recovery in downhill stop-and-go city traffic.',
     },
     {
-      src: '/falco/power-12-03.jpg',
+      src: '/falco/power-12-03.webp',
       title: 'Falco Power Feature Spotlight 03',
       subtitle: 'Social Campaign Infographic',
       type: 'image',
@@ -184,7 +184,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Fast-charging battery architecture diagram showcasing 80% charge capability in under 45 minutes.',
     },
     {
-      src: '/falco/post-13-06.jpg',
+      src: '/falco/post-13-06.webp',
       title: 'Clean Energy Movement Story',
       subtitle: 'Social Media Graphic',
       type: 'image',
@@ -192,7 +192,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Brand story post highlighting carbon footprint reduction and sustainable urban micro-mobility solutions.',
     },
     {
-      src: '/falco/post-14-06.jpg',
+      src: '/falco/post-14-06.webp',
       title: 'Rider Community & Fleet Care',
       subtitle: 'Social Media Graphic',
       type: 'image',
@@ -200,7 +200,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
       description: 'Over-the-air firmware update support and mobile companion app connectivity campaign.',
     },
     {
-      src: '/falco/post-17-06.jpg',
+      src: '/falco/post-17-06.webp',
       title: 'Precision Craftsmanship Details',
       subtitle: 'Social Media Graphic',
       type: 'image',
@@ -403,7 +403,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/falco/hero-secti.png"
+              src="/falco/hero-secti.webp"
               alt="Falco Power E-Drive Showcase"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

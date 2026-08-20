@@ -165,7 +165,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Spacious double vanity arrangement with custom quartz countertops and polished chrome hardware.',
     },
     {
-      src: '/jrc/basement reel.mp4',
+      src: '/jrc/basement .mp4',
       title: 'Custom Basement Buildout',
       subtitle: 'Lower-Level Living Reel',
       type: 'video',
@@ -197,7 +197,7 @@ export function JrcCaseStudy({ isOpen, onClose }: JrcCaseStudyProps) {
       description: 'Full video walkthrough of custom tile work, glass enclosed rainfall shower, and double vanity bath installation.',
     },
     {
-      src: '/jrc/final-ad-after-before.mp4',
+      src: '/jrc/Final ad for after before .mp4',
       title: 'Whole-Home Before & After Cut',
       subtitle: 'Full Renovation Showcase',
       type: 'video',

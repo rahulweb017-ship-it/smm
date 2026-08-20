@@ -211,7 +211,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
 
   const motionVideos: LightboxItem[] = [
     {
-      src: '/falco/hero-video.mp4',
+      src: '/falco/hero video.mp4',
       title: 'Falco Power E-Drive Master Film',
       subtitle: 'Cinematic Product Reel',
       type: 'video',
@@ -427,7 +427,7 @@ export function FalcoCaseStudy({ isOpen, onClose }: FalcoCaseStudyProps) {
               muted
               preload="auto"
             >
-              <source src="/falco/hero-video.mp4" type="video/mp4" />
+              <source src="/falco/hero video.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-t from-[#28282e]/80 via-[#28282e]/20 to-transparent flex flex-col justify-end p-6 md:p-12">
               <span className="text-[#00f2fe] text-[12px] font-extrabold uppercase tracking-widest mb-2 block">

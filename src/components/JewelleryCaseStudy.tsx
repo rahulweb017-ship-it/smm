@@ -96,7 +96,7 @@ export function JewelleryCaseStudy({ isOpen, onClose }: JewelleryCaseStudyProps)
         <section className="mt-16 md:mt-24">
           <div className="rounded-[20px] md:rounded-[40px] overflow-hidden bg-white border border-[#ebdcb9]/30 shadow-sm p-4 md:p-8">
             <img
-              src="/jewellery/Mockup.webp"
+              src="/jewellery/mockup.webp"
               alt="Jewelry design workstation"
               className="w-full h-auto object-cover rounded-[15px] md:rounded-[30px]"
             />

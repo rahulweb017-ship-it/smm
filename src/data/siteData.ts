@@ -21,7 +21,7 @@ export const heroLogos = [
   '/scalo/Bruschetta.webp',
   '/rethink/main.webp',
   'https://cdn.sanity.io/images/y63jgrcb/production/bc41b7f7da44c76ea2fbaa985982917c3c44bf15-127x127.jpg?w=200&auto=format',
-  '/jewellery/Ring .webp',
+  '/jewellery/ring.webp',
 ]
 
 export const projectFilters = [
@@ -47,13 +47,13 @@ export const projectFilters = [
 export const projects: Project[] = [
   { title: 'Scalo Restaurant', category: 'Food & Drinks', image: '/scalo/hero-section.webp', video: '/scalo/hero-video.mp4' },
   { title: 'Imperial Branding Agency', category: 'Short Video Content Creation', image: '/luis/hero image.webp?v=2', video: '/luis/hero video.mp4' },
-  { title: 'The Forsted Vault', category: 'Jewellery', image: '/jewellery/Mockup.webp', video: '/jewellery/faith.mp4' },
+  { title: 'The Forsted Vault', category: 'Jewellery', image: '/jewellery/mockup.webp', video: '/jewellery/faith.mp4' },
   { title: 'Replug', category: 'E-Commerce', image: '/replug/hero image.webp', video: '/replug/hero image.mp4' },
   { title: 'Limco Logistics', category: 'Logistics', image: '/limco/hero image.webp?v=2', video: '/limco/hero video.mp4' },
   { title: 'JRC Home Remodeling', category: 'Home Remodeling', image: '/jrc/hero image.webp', video: '/jrc/hero video.mp4' },
   { title: 'Rethink UX/UI Studio', category: 'UX/UI', image: '/rethink/main.webp', video: '/rethink/hero-video.mp4' },
   { title: 'Khalsa Immigration', category: 'Immigration', image: '/khalsa/hero image.webp', video: '/khalsa/hero video.mp4' },
-  { title: 'Falco Power E-Drive', category: 'E-Bikes', image: '/falco/hero-secti.webp?v=2', video: '/falco/hero-video.mp4' },
+  { title: 'Falco Power E-Drive', category: 'E-Bikes', image: '/falco/hero-secti.webp?v=2', video: '/falco/hero video.mp4' },
   { title: 'Fibax Pharma', category: 'Healthcare', image: '/fibax/hero image.webp', video: '/fibax/hero video.mp4' },
   { title: 'Emmbros Autocomp', category: 'Industry', image: '/emmbros/hero image.webp?v=2', video: '/emmbros/hero video.mp4' },
   { title: 'Get Set Go Digital', category: 'IT Solutions Marketing', image: '/getsetgo/hero image .webp?v=2', video: '/getsetgo/hero video .mp4' },
@@ -82,7 +82,7 @@ export const services: Service[] = [
   {
     title: 'Craft & Jewelry.',
     points: ['3D Modeling & CAD', 'Exquisite stone curation', 'Bespoke hand-finishing', 'Custom master craftsmanship'],
-    image: '/jewellery/Mockup.webp',
+    image: '/jewellery/mockup.webp',
   },
 ]
 

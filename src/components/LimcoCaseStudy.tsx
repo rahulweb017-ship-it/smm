@@ -27,7 +27,7 @@ const airFreightAds: LightboxItem[] = [
     description: 'Specialized vehicle air transport commercial showcasing enclosed aircraft loading, climate control, and European delivery.',
   },
   {
-    src: '/limco/Car by air for md .mp4',
+    src: '/limco/reel-2.mp4',
     poster: '/limco/Car by air md.webp',
     title: 'Executive Auto Air Transport',
     subtitle: 'High-Value Freight Motion Reel',
@@ -36,7 +36,7 @@ const airFreightAds: LightboxItem[] = [
     description: 'Precision air cargo transport film highlighting exotic car handling, airport tarmac logistics, and rapid international transit.',
   },
   {
-    src: '/limco/Cargo by air Ad -1 .mp4',
+    src: '/limco/cargo by air ad -1.webp',
     poster: '/limco/cargo by air ad -1.webp',
     title: 'Cargo By Air Campaign',
     subtitle: 'Global Express Air Freight',
@@ -45,7 +45,7 @@ const airFreightAds: LightboxItem[] = [
     description: 'High-impact air freight commercial spotlighting cargo aircraft fleet management, customs clearance, and global door-to-door delivery.',
   },
   {
-    src: '/limco/CBA ad final .mp4',
+    src: '/limco/cargo by air ad -2.webp',
     poster: '/limco/cargo by air ad -2.webp',
     title: 'CBA Freight Logistics Master',
     subtitle: 'International Freight Commercial',

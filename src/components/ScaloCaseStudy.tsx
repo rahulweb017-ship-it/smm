@@ -160,7 +160,7 @@ export function ScaloCaseStudy({ isOpen, onClose }: ScaloCaseStudyProps) {
 
   const videoReels: LightboxItem[] = [
     {
-      src: '/scalo/intro.mp4',
+      src: '/scalo/hero-video.mp4',
       title: 'Scalo Brand Atmosphere Intro',
       subtitle: 'Cinematic Teaser Reel',
       type: 'video',
